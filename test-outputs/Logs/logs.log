@@ -1,0 +1,1151 @@
+[INFO] - [24-11-2025 16:45:35] [main] [org.apache.maven.surefire.testng.TestNGExecutor] -  Execution Started
+[INFO] - [24-11-2025 16:45:36] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Started 
+[INFO] - [24-11-2025 16:45:42] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Finished 
+[INFO] - [24-11-2025 16:45:42] [main] [org.testng.internal.invokers.TestInvoker] - CP_TC_01 Started 
+[INFO] - [24-11-2025 16:45:42] [main] [org.testng.internal.invokers.TestInvoker] - CP_TC_01 Started 
+[INFO] - [24-11-2025 16:45:43] [main] [pages.LoginPage] - Typed text 'standard_user' into element: By.id: user-name
+[INFO] - [24-11-2025 16:45:43] [main] [pages.LoginPage] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [24-11-2025 16:45:44] [main] [pages.LoginPage] - Clicked on element: By.id: login-button
+[INFO] - [24-11-2025 16:45:44] [main] [pages.HomePage] - Clicked on element: By.id: add-to-cart-sauce-labs-backpack
+[INFO] - [24-11-2025 16:45:45] [main] [pages.HomePage] - Clicked on element: By.cssSelector: #shopping_cart_container > a
+[INFO] - [24-11-2025 16:45:45] [main] [pages.CartPage] - Clicked on element: By.cssSelector: [name="checkout"]
+[INFO] - [24-11-2025 16:45:45] [main] [org.testng.internal.invokers.TestInvoker] - CP_TC_01 Finished 
+[ERROR] - [24-11-2025 16:45:45] [main] [org.testng.internal.invokers.TestInvoker] - CP_TC_01Failed
+[INFO] - [24-11-2025 16:45:45] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Started 
+[INFO] - [24-11-2025 16:45:45] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Finished 
+[INFO] - [24-11-2025 16:45:45] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Started 
+[INFO] - [24-11-2025 16:45:51] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Finished 
+[INFO] - [24-11-2025 16:45:51] [main] [org.testng.internal.invokers.TestInvoker] - CP_TC_02 Started 
+[INFO] - [24-11-2025 16:45:51] [main] [org.testng.internal.invokers.TestInvoker] - CP_TC_02 Started 
+[INFO] - [24-11-2025 16:45:51] [main] [pages.LoginPage] - Typed text 'standard_user' into element: By.id: user-name
+[INFO] - [24-11-2025 16:45:51] [main] [pages.LoginPage] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [24-11-2025 16:45:52] [main] [pages.LoginPage] - Clicked on element: By.id: login-button
+[INFO] - [24-11-2025 16:45:52] [main] [pages.HomePage] - Clicked on element: By.id: add-to-cart-sauce-labs-backpack
+[INFO] - [24-11-2025 16:45:52] [main] [pages.HomePage] - Clicked on element: By.id: add-to-cart-sauce-labs-onesie
+[INFO] - [24-11-2025 16:45:52] [main] [pages.HomePage] - Clicked on element: By.cssSelector: #shopping_cart_container > a
+[INFO] - [24-11-2025 16:45:53] [main] [pages.CartPage] - Clicked on element: By.cssSelector: [name="checkout"]
+[INFO] - [24-11-2025 16:45:53] [main] [org.testng.internal.invokers.TestInvoker] - CP_TC_02 Finished 
+[DEBUG] - [24-11-2025 16:45:53] [main] [org.testng.internal.invokers.TestInvoker] - CP_TC_02Success
+[INFO] - [24-11-2025 16:45:53] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Started 
+[INFO] - [24-11-2025 16:45:53] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Finished 
+[INFO] - [24-11-2025 16:45:53] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Started 
+[INFO] - [24-11-2025 16:45:56] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Finished 
+[INFO] - [24-11-2025 16:45:56] [main] [org.testng.internal.invokers.TestInvoker] - CP_TC_03 Started 
+[INFO] - [24-11-2025 16:45:56] [main] [org.testng.internal.invokers.TestInvoker] - CP_TC_03 Started 
+[INFO] - [24-11-2025 16:45:57] [main] [pages.LoginPage] - Typed text 'standard_user' into element: By.id: user-name
+[INFO] - [24-11-2025 16:45:57] [main] [pages.LoginPage] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [24-11-2025 16:45:57] [main] [pages.LoginPage] - Clicked on element: By.id: login-button
+[INFO] - [24-11-2025 16:45:57] [main] [pages.HomePage] - Clicked on element: By.id: add-to-cart-sauce-labs-backpack
+[INFO] - [24-11-2025 16:45:57] [main] [pages.HomePage] - Clicked on element: By.cssSelector: #shopping_cart_container > a
+[INFO] - [24-11-2025 16:45:58] [main] [pages.CartPage] - Clicked on element: By.cssSelector: [name="continue-shopping"]
+[INFO] - [24-11-2025 16:45:58] [main] [org.testng.internal.invokers.TestInvoker] - CP_TC_03 Finished 
+[DEBUG] - [24-11-2025 16:45:58] [main] [org.testng.internal.invokers.TestInvoker] - CP_TC_03Success
+[INFO] - [24-11-2025 16:45:58] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Started 
+[INFO] - [24-11-2025 16:45:58] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Finished 
+[INFO] - [24-11-2025 16:45:58] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Started 
+[INFO] - [24-11-2025 16:46:04] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Finished 
+[INFO] - [24-11-2025 16:46:04] [main] [org.testng.internal.invokers.TestInvoker] - CP_TC_04 Started 
+[INFO] - [24-11-2025 16:46:04] [main] [org.testng.internal.invokers.TestInvoker] - CP_TC_04 Started 
+[INFO] - [24-11-2025 16:46:04] [main] [pages.LoginPage] - Typed text 'standard_user' into element: By.id: user-name
+[INFO] - [24-11-2025 16:46:04] [main] [pages.LoginPage] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [24-11-2025 16:46:05] [main] [pages.LoginPage] - Clicked on element: By.id: login-button
+[INFO] - [24-11-2025 16:46:05] [main] [pages.HomePage] - Clicked on element: By.id: add-to-cart-sauce-labs-backpack
+[INFO] - [24-11-2025 16:46:05] [main] [pages.HomePage] - Clicked on element: By.cssSelector: #shopping_cart_container > a
+[INFO] - [24-11-2025 16:46:05] [main] [pages.CartPage] - Clicked on element: By.cssSelector: [name="checkout"]
+[INFO] - [24-11-2025 16:46:05] [main] [org.testng.internal.invokers.TestInvoker] - CP_TC_04 Finished 
+[DEBUG] - [24-11-2025 16:46:05] [main] [org.testng.internal.invokers.TestInvoker] - CP_TC_04Success
+[INFO] - [24-11-2025 16:46:05] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Started 
+[INFO] - [24-11-2025 16:46:05] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Finished 
+[INFO] - [24-11-2025 16:46:05] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Started 
+[INFO] - [24-11-2025 16:46:10] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Finished 
+[INFO] - [24-11-2025 16:46:10] [main] [org.testng.internal.invokers.TestInvoker] - CP_TC_05 Started 
+[INFO] - [24-11-2025 16:46:10] [main] [org.testng.internal.invokers.TestInvoker] - CP_TC_05 Started 
+[INFO] - [24-11-2025 16:46:10] [main] [pages.LoginPage] - Typed text 'standard_user' into element: By.id: user-name
+[INFO] - [24-11-2025 16:46:10] [main] [pages.LoginPage] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [24-11-2025 16:46:10] [main] [pages.LoginPage] - Clicked on element: By.id: login-button
+[INFO] - [24-11-2025 16:46:11] [main] [pages.HomePage] - Clicked on element: By.id: add-to-cart-sauce-labs-backpack
+[INFO] - [24-11-2025 16:46:11] [main] [pages.HomePage] - Clicked on element: By.cssSelector: #shopping_cart_container > a
+[INFO] - [24-11-2025 16:46:11] [main] [org.testng.internal.invokers.TestInvoker] - CP_TC_05 Finished 
+[DEBUG] - [24-11-2025 16:46:11] [main] [org.testng.internal.invokers.TestInvoker] - CP_TC_05Success
+[INFO] - [24-11-2025 16:46:11] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Started 
+[INFO] - [24-11-2025 16:46:11] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Finished 
+[INFO] - [24-11-2025 16:46:11] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Started 
+[INFO] - [24-11-2025 16:46:16] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Finished 
+[INFO] - [24-11-2025 16:46:16] [main] [org.testng.internal.invokers.TestInvoker] - CP_TC_06 Started 
+[INFO] - [24-11-2025 16:46:16] [main] [org.testng.internal.invokers.TestInvoker] - CP_TC_06 Started 
+[INFO] - [24-11-2025 16:46:16] [main] [pages.LoginPage] - Typed text 'standard_user' into element: By.id: user-name
+[INFO] - [24-11-2025 16:46:17] [main] [pages.LoginPage] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [24-11-2025 16:46:17] [main] [pages.LoginPage] - Clicked on element: By.id: login-button
+[INFO] - [24-11-2025 16:46:17] [main] [pages.HomePage] - Clicked on element: By.id: add-to-cart-sauce-labs-backpack
+[INFO] - [24-11-2025 16:46:17] [main] [pages.HomePage] - Clicked on element: By.cssSelector: #shopping_cart_container > a
+[ERROR] - [24-11-2025 16:46:17] [main] [io.qameta.allure.util.NamingUtils] - Could not find parameter count
+[INFO] - [24-11-2025 16:46:17] [main] [org.testng.internal.invokers.TestInvoker] - CP_TC_06 Finished 
+[DEBUG] - [24-11-2025 16:46:17] [main] [org.testng.internal.invokers.TestInvoker] - CP_TC_06Success
+[INFO] - [24-11-2025 16:46:17] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Started 
+[INFO] - [24-11-2025 16:46:17] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Finished 
+[INFO] - [24-11-2025 16:46:17] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Started 
+[INFO] - [24-11-2025 16:46:22] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Finished 
+[INFO] - [24-11-2025 16:46:22] [main] [org.testng.internal.invokers.TestInvoker] - CP_TC_07 Started 
+[INFO] - [24-11-2025 16:46:22] [main] [org.testng.internal.invokers.TestInvoker] - CP_TC_07 Started 
+[INFO] - [24-11-2025 16:46:23] [main] [pages.LoginPage] - Typed text 'standard_user' into element: By.id: user-name
+[INFO] - [24-11-2025 16:46:23] [main] [pages.LoginPage] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [24-11-2025 16:46:23] [main] [pages.LoginPage] - Clicked on element: By.id: login-button
+[INFO] - [24-11-2025 16:46:23] [main] [pages.HomePage] - Clicked on element: By.id: add-to-cart-sauce-labs-backpack
+[INFO] - [24-11-2025 16:46:23] [main] [pages.HomePage] - Clicked on element: By.cssSelector: #shopping_cart_container > a
+[ERROR] - [24-11-2025 16:46:23] [main] [io.qameta.allure.util.NamingUtils] - Could not find parameter count
+[INFO] - [24-11-2025 16:46:24] [main] [pages.CartPage] - Clicked on element: By.cssSelector: [name="continue-shopping"]
+[INFO] - [24-11-2025 16:46:24] [main] [pages.HomePage] - Clicked on element: By.id: add-to-cart-sauce-labs-onesie
+[INFO] - [24-11-2025 16:46:24] [main] [pages.HomePage] - Clicked on element: By.cssSelector: #shopping_cart_container > a
+[ERROR] - [24-11-2025 16:46:24] [main] [io.qameta.allure.util.NamingUtils] - Could not find parameter count
+[INFO] - [24-11-2025 16:46:24] [main] [org.testng.internal.invokers.TestInvoker] - CP_TC_07 Finished 
+[DEBUG] - [24-11-2025 16:46:24] [main] [org.testng.internal.invokers.TestInvoker] - CP_TC_07Success
+[INFO] - [24-11-2025 16:46:24] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Started 
+[INFO] - [24-11-2025 16:46:24] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Finished 
+[INFO] - [24-11-2025 16:46:24] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Started 
+[INFO] - [24-11-2025 16:46:26] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Finished 
+[INFO] - [24-11-2025 16:46:26] [main] [org.testng.internal.invokers.TestInvoker] - CP_TC_08 Started 
+[INFO] - [24-11-2025 16:46:26] [main] [org.testng.internal.invokers.TestInvoker] - CP_TC_08 Started 
+[INFO] - [24-11-2025 16:46:28] [main] [pages.LoginPage] - Typed text 'standard_user' into element: By.id: user-name
+[INFO] - [24-11-2025 16:46:28] [main] [pages.LoginPage] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [24-11-2025 16:46:28] [main] [pages.LoginPage] - Clicked on element: By.id: login-button
+[INFO] - [24-11-2025 16:46:29] [main] [pages.HomePage] - Clicked on element: By.id: add-to-cart-sauce-labs-backpack
+[INFO] - [24-11-2025 16:46:29] [main] [pages.HomePage] - Clicked on element: By.id: add-to-cart-sauce-labs-onesie
+[INFO] - [24-11-2025 16:46:29] [main] [pages.HomePage] - Clicked on element: By.cssSelector: #shopping_cart_container > a
+[ERROR] - [24-11-2025 16:46:29] [main] [io.qameta.allure.util.NamingUtils] - Could not find parameter count
+[ERROR] - [24-11-2025 16:46:29] [main] [io.qameta.allure.util.NamingUtils] - Could not find parameter count
+[INFO] - [24-11-2025 16:46:29] [main] [org.testng.internal.invokers.TestInvoker] - CP_TC_08 Finished 
+[DEBUG] - [24-11-2025 16:46:29] [main] [org.testng.internal.invokers.TestInvoker] - CP_TC_08Success
+[INFO] - [24-11-2025 16:46:29] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Started 
+[INFO] - [24-11-2025 16:46:29] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Finished 
+[INFO] - [24-11-2025 16:46:29] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Started 
+[INFO] - [24-11-2025 16:46:36] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Finished 
+[INFO] - [24-11-2025 16:46:36] [main] [org.testng.internal.invokers.TestInvoker] - CP_TC_09 Started 
+[INFO] - [24-11-2025 16:46:36] [main] [org.testng.internal.invokers.TestInvoker] - CP_TC_09 Started 
+[INFO] - [24-11-2025 16:46:36] [main] [pages.LoginPage] - Typed text 'standard_user' into element: By.id: user-name
+[INFO] - [24-11-2025 16:46:36] [main] [pages.LoginPage] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [24-11-2025 16:46:37] [main] [pages.LoginPage] - Clicked on element: By.id: login-button
+[INFO] - [24-11-2025 16:46:37] [main] [pages.HomePage] - Clicked on element: By.id: add-to-cart-sauce-labs-backpack
+[INFO] - [24-11-2025 16:46:37] [main] [pages.HomePage] - Clicked on element: By.id: add-to-cart-sauce-labs-onesie
+[INFO] - [24-11-2025 16:46:37] [main] [pages.HomePage] - Clicked on element: By.cssSelector: #shopping_cart_container > a
+[ERROR] - [24-11-2025 16:46:38] [main] [io.qameta.allure.util.NamingUtils] - Could not find parameter count
+[INFO] - [24-11-2025 16:46:38] [main] [org.testng.internal.invokers.TestInvoker] - CP_TC_09 Finished 
+[DEBUG] - [24-11-2025 16:46:38] [main] [org.testng.internal.invokers.TestInvoker] - CP_TC_09Success
+[INFO] - [24-11-2025 16:46:38] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Started 
+[INFO] - [24-11-2025 16:46:39] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Finished 
+[INFO] - [24-11-2025 16:46:39] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Started 
+[INFO] - [24-11-2025 16:46:44] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Finished 
+[INFO] - [24-11-2025 16:46:44] [main] [org.testng.internal.invokers.TestInvoker] - CP_TC_10 Started 
+[INFO] - [24-11-2025 16:46:44] [main] [org.testng.internal.invokers.TestInvoker] - CP_TC_10 Started 
+[INFO] - [24-11-2025 16:46:45] [main] [pages.LoginPage] - Typed text 'standard_user' into element: By.id: user-name
+[INFO] - [24-11-2025 16:46:45] [main] [pages.LoginPage] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [24-11-2025 16:46:45] [main] [pages.LoginPage] - Clicked on element: By.id: login-button
+[INFO] - [24-11-2025 16:46:45] [main] [pages.HomePage] - Clicked on element: By.id: add-to-cart-sauce-labs-backpack
+[INFO] - [24-11-2025 16:46:46] [main] [pages.HomePage] - Clicked on element: By.cssSelector: #shopping_cart_container > a
+[INFO] - [24-11-2025 16:46:46] [main] [org.testng.internal.invokers.TestInvoker] - CP_TC_10 Finished 
+[DEBUG] - [24-11-2025 16:46:46] [main] [org.testng.internal.invokers.TestInvoker] - CP_TC_10Success
+[INFO] - [24-11-2025 16:46:46] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Started 
+[INFO] - [24-11-2025 16:46:46] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Finished 
+[INFO] - [24-11-2025 16:46:46] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Started 
+[INFO] - [24-11-2025 16:46:52] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Finished 
+[INFO] - [24-11-2025 16:46:52] [main] [org.testng.internal.invokers.TestInvoker] - CO_TC_01 Started 
+[INFO] - [24-11-2025 16:46:52] [main] [org.testng.internal.invokers.TestInvoker] - CO_TC_01 Started 
+[INFO] - [24-11-2025 16:46:52] [main] [pages.LoginPage] - Typed text 'standard_user' into element: By.id: user-name
+[INFO] - [24-11-2025 16:46:52] [main] [pages.LoginPage] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [24-11-2025 16:46:53] [main] [pages.LoginPage] - Clicked on element: By.id: login-button
+[INFO] - [24-11-2025 16:46:53] [main] [pages.HomePage] - Clicked on element: By.id: add-to-cart-sauce-labs-backpack
+[INFO] - [24-11-2025 16:46:53] [main] [pages.HomePage] - Clicked on element: By.cssSelector: #shopping_cart_container > a
+[INFO] - [24-11-2025 16:46:53] [main] [pages.CartPage] - Clicked on element: By.cssSelector: [name="checkout"]
+[INFO] - [24-11-2025 16:46:53] [main] [pages.CheckOutPage] - Typed text 'ahmed' into element: By.cssSelector: [name="lastName"]
+[INFO] - [24-11-2025 16:46:54] [main] [pages.CheckOutPage] - Typed text '12345' into element: By.cssSelector: [name="postalCode"]
+[INFO] - [24-11-2025 16:46:54] [main] [pages.CheckOutPage] - Clicked on element: By.cssSelector: [name="continue"]
+[INFO] - [24-11-2025 16:46:54] [main] [org.testng.internal.invokers.TestInvoker] - CO_TC_01 Finished 
+[DEBUG] - [24-11-2025 16:46:54] [main] [org.testng.internal.invokers.TestInvoker] - CO_TC_01Success
+[INFO] - [24-11-2025 16:46:54] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Started 
+[INFO] - [24-11-2025 16:46:54] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Finished 
+[INFO] - [24-11-2025 16:46:54] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Started 
+[INFO] - [24-11-2025 16:46:58] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Finished 
+[INFO] - [24-11-2025 16:46:58] [main] [org.testng.internal.invokers.TestInvoker] - CO_TC_010 Started 
+[INFO] - [24-11-2025 16:46:58] [main] [org.testng.internal.invokers.TestInvoker] - CO_TC_010 Started 
+[INFO] - [24-11-2025 16:46:59] [main] [pages.LoginPage] - Typed text 'standard_user' into element: By.id: user-name
+[INFO] - [24-11-2025 16:46:59] [main] [pages.LoginPage] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [24-11-2025 16:46:59] [main] [pages.LoginPage] - Clicked on element: By.id: login-button
+[INFO] - [24-11-2025 16:46:59] [main] [pages.HomePage] - Clicked on element: By.id: add-to-cart-sauce-labs-backpack
+[INFO] - [24-11-2025 16:47:00] [main] [pages.HomePage] - Clicked on element: By.cssSelector: #shopping_cart_container > a
+[INFO] - [24-11-2025 16:47:00] [main] [pages.CartPage] - Clicked on element: By.cssSelector: [name="checkout"]
+[INFO] - [24-11-2025 16:47:00] [main] [pages.CheckOutPage] - Typed text 'firstNameDigits' into element: By.cssSelector: [name="firstName"]
+[INFO] - [24-11-2025 16:47:00] [main] [pages.CheckOutPage] - Typed text 'ahmed' into element: By.cssSelector: [name="lastName"]
+[INFO] - [24-11-2025 16:47:00] [main] [pages.CheckOutPage] - Typed text '12345' into element: By.cssSelector: [name="postalCode"]
+[INFO] - [24-11-2025 16:47:01] [main] [pages.CheckOutPage] - Clicked on element: By.cssSelector: [name="continue"]
+[INFO] - [24-11-2025 16:47:01] [main] [org.testng.internal.invokers.TestInvoker] - CO_TC_010 Finished 
+[ERROR] - [24-11-2025 16:47:01] [main] [org.testng.internal.invokers.TestInvoker] - CO_TC_010Failed
+[INFO] - [24-11-2025 16:47:01] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Started 
+[INFO] - [24-11-2025 16:47:01] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Finished 
+[INFO] - [24-11-2025 16:47:01] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Started 
+[INFO] - [24-11-2025 16:47:04] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Finished 
+[INFO] - [24-11-2025 16:47:04] [main] [org.testng.internal.invokers.TestInvoker] - CO_TC_011 Started 
+[INFO] - [24-11-2025 16:47:04] [main] [org.testng.internal.invokers.TestInvoker] - CO_TC_011 Started 
+[INFO] - [24-11-2025 16:47:04] [main] [pages.LoginPage] - Typed text 'standard_user' into element: By.id: user-name
+[INFO] - [24-11-2025 16:47:04] [main] [pages.LoginPage] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [24-11-2025 16:47:05] [main] [pages.LoginPage] - Clicked on element: By.id: login-button
+[INFO] - [24-11-2025 16:47:05] [main] [pages.HomePage] - Clicked on element: By.id: add-to-cart-sauce-labs-backpack
+[INFO] - [24-11-2025 16:47:05] [main] [pages.HomePage] - Clicked on element: By.cssSelector: #shopping_cart_container > a
+[INFO] - [24-11-2025 16:47:05] [main] [pages.CartPage] - Clicked on element: By.cssSelector: [name="checkout"]
+[INFO] - [24-11-2025 16:47:05] [main] [pages.CheckOutPage] - Typed text 'firstName1letter' into element: By.cssSelector: [name="firstName"]
+[INFO] - [24-11-2025 16:47:06] [main] [pages.CheckOutPage] - Typed text 'ahmed' into element: By.cssSelector: [name="lastName"]
+[INFO] - [24-11-2025 16:47:06] [main] [pages.CheckOutPage] - Typed text '12345' into element: By.cssSelector: [name="postalCode"]
+[INFO] - [24-11-2025 16:47:06] [main] [pages.CheckOutPage] - Clicked on element: By.cssSelector: [name="continue"]
+[INFO] - [24-11-2025 16:47:06] [main] [org.testng.internal.invokers.TestInvoker] - CO_TC_011 Finished 
+[ERROR] - [24-11-2025 16:47:06] [main] [org.testng.internal.invokers.TestInvoker] - CO_TC_011Failed
+[INFO] - [24-11-2025 16:47:06] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Started 
+[INFO] - [24-11-2025 16:47:06] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Finished 
+[INFO] - [24-11-2025 16:47:06] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Started 
+[INFO] - [24-11-2025 16:47:09] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Finished 
+[INFO] - [24-11-2025 16:47:09] [main] [org.testng.internal.invokers.TestInvoker] - CO_TC_012 Started 
+[INFO] - [24-11-2025 16:47:09] [main] [org.testng.internal.invokers.TestInvoker] - CO_TC_012 Started 
+[INFO] - [24-11-2025 16:47:09] [main] [pages.LoginPage] - Typed text 'standard_user' into element: By.id: user-name
+[INFO] - [24-11-2025 16:47:10] [main] [pages.LoginPage] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [24-11-2025 16:47:10] [main] [pages.LoginPage] - Clicked on element: By.id: login-button
+[INFO] - [24-11-2025 16:47:10] [main] [pages.HomePage] - Clicked on element: By.id: add-to-cart-sauce-labs-backpack
+[INFO] - [24-11-2025 16:47:10] [main] [pages.HomePage] - Clicked on element: By.cssSelector: #shopping_cart_container > a
+[INFO] - [24-11-2025 16:47:11] [main] [pages.CartPage] - Clicked on element: By.cssSelector: [name="checkout"]
+[INFO] - [24-11-2025 16:47:11] [main] [pages.CheckOutPage] - Typed text 'mohamed' into element: By.cssSelector: [name="firstName"]
+[INFO] - [24-11-2025 16:47:11] [main] [pages.CheckOutPage] - Typed text 'lastNameDigits' into element: By.cssSelector: [name="lastName"]
+[INFO] - [24-11-2025 16:47:11] [main] [pages.CheckOutPage] - Typed text '12345' into element: By.cssSelector: [name="postalCode"]
+[INFO] - [24-11-2025 16:47:11] [main] [pages.CheckOutPage] - Clicked on element: By.cssSelector: [name="continue"]
+[INFO] - [24-11-2025 16:47:11] [main] [org.testng.internal.invokers.TestInvoker] - CO_TC_012 Finished 
+[ERROR] - [24-11-2025 16:47:12] [main] [org.testng.internal.invokers.TestInvoker] - CO_TC_012Failed
+[INFO] - [24-11-2025 16:47:12] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Started 
+[INFO] - [24-11-2025 16:47:12] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Finished 
+[INFO] - [24-11-2025 16:47:12] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Started 
+[INFO] - [24-11-2025 16:47:36] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Finished 
+[INFO] - [24-11-2025 16:47:36] [main] [org.testng.internal.invokers.TestInvoker] - CO_TC_013 Started 
+[INFO] - [24-11-2025 16:47:36] [main] [org.testng.internal.invokers.TestInvoker] - CO_TC_013 Started 
+[INFO] - [24-11-2025 16:47:36] [main] [pages.LoginPage] - Typed text 'standard_user' into element: By.id: user-name
+[INFO] - [24-11-2025 16:47:36] [main] [pages.LoginPage] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [24-11-2025 16:47:36] [main] [pages.LoginPage] - Clicked on element: By.id: login-button
+[INFO] - [24-11-2025 16:47:37] [main] [pages.HomePage] - Clicked on element: By.id: add-to-cart-sauce-labs-backpack
+[INFO] - [24-11-2025 16:47:37] [main] [pages.HomePage] - Clicked on element: By.cssSelector: #shopping_cart_container > a
+[INFO] - [24-11-2025 16:47:37] [main] [pages.CartPage] - Clicked on element: By.cssSelector: [name="checkout"]
+[INFO] - [24-11-2025 16:47:37] [main] [pages.CheckOutPage] - Typed text 'mohamed' into element: By.cssSelector: [name="firstName"]
+[INFO] - [24-11-2025 16:47:38] [main] [pages.CheckOutPage] - Typed text 'lastName1letter' into element: By.cssSelector: [name="lastName"]
+[INFO] - [24-11-2025 16:47:38] [main] [pages.CheckOutPage] - Typed text '12345' into element: By.cssSelector: [name="postalCode"]
+[INFO] - [24-11-2025 16:47:38] [main] [pages.CheckOutPage] - Clicked on element: By.cssSelector: [name="continue"]
+[INFO] - [24-11-2025 16:47:38] [main] [org.testng.internal.invokers.TestInvoker] - CO_TC_013 Finished 
+[ERROR] - [24-11-2025 16:47:38] [main] [org.testng.internal.invokers.TestInvoker] - CO_TC_013Failed
+[INFO] - [24-11-2025 16:47:38] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Started 
+[INFO] - [24-11-2025 16:47:39] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Finished 
+[INFO] - [24-11-2025 16:47:39] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Started 
+[INFO] - [24-11-2025 16:47:43] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Finished 
+[INFO] - [24-11-2025 16:47:43] [main] [org.testng.internal.invokers.TestInvoker] - CO_TC_014 Started 
+[INFO] - [24-11-2025 16:47:43] [main] [org.testng.internal.invokers.TestInvoker] - CO_TC_014 Started 
+[INFO] - [24-11-2025 16:47:43] [main] [pages.LoginPage] - Typed text 'standard_user' into element: By.id: user-name
+[INFO] - [24-11-2025 16:47:43] [main] [pages.LoginPage] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [24-11-2025 16:47:43] [main] [pages.LoginPage] - Clicked on element: By.id: login-button
+[INFO] - [24-11-2025 16:47:43] [main] [pages.HomePage] - Clicked on element: By.id: add-to-cart-sauce-labs-backpack
+[INFO] - [24-11-2025 16:47:44] [main] [pages.HomePage] - Clicked on element: By.cssSelector: #shopping_cart_container > a
+[INFO] - [24-11-2025 16:47:44] [main] [pages.CartPage] - Clicked on element: By.cssSelector: [name="checkout"]
+[INFO] - [24-11-2025 16:47:44] [main] [pages.CheckOutPage] - Typed text 'mohamed' into element: By.cssSelector: [name="firstName"]
+[INFO] - [24-11-2025 16:47:44] [main] [pages.CheckOutPage] - Typed text 'ahmed' into element: By.cssSelector: [name="lastName"]
+[INFO] - [24-11-2025 16:47:44] [main] [pages.CheckOutPage] - Typed text 'zipCodeletter' into element: By.cssSelector: [name="postalCode"]
+[INFO] - [24-11-2025 16:47:45] [main] [pages.CheckOutPage] - Clicked on element: By.cssSelector: [name="continue"]
+[INFO] - [24-11-2025 16:47:45] [main] [org.testng.internal.invokers.TestInvoker] - CO_TC_014 Finished 
+[ERROR] - [24-11-2025 16:47:45] [main] [org.testng.internal.invokers.TestInvoker] - CO_TC_014Failed
+[INFO] - [24-11-2025 16:47:45] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Started 
+[INFO] - [24-11-2025 16:47:45] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Finished 
+[INFO] - [24-11-2025 16:47:45] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Started 
+[INFO] - [24-11-2025 16:47:51] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Finished 
+[INFO] - [24-11-2025 16:47:51] [main] [org.testng.internal.invokers.TestInvoker] - CO_TC_015 Started 
+[INFO] - [24-11-2025 16:47:51] [main] [org.testng.internal.invokers.TestInvoker] - CO_TC_015 Started 
+[INFO] - [24-11-2025 16:47:52] [main] [pages.LoginPage] - Typed text 'standard_user' into element: By.id: user-name
+[INFO] - [24-11-2025 16:47:52] [main] [pages.LoginPage] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [24-11-2025 16:47:52] [main] [pages.LoginPage] - Clicked on element: By.id: login-button
+[INFO] - [24-11-2025 16:47:52] [main] [pages.HomePage] - Clicked on element: By.id: add-to-cart-sauce-labs-backpack
+[INFO] - [24-11-2025 16:47:53] [main] [pages.HomePage] - Clicked on element: By.cssSelector: #shopping_cart_container > a
+[INFO] - [24-11-2025 16:47:53] [main] [pages.CartPage] - Clicked on element: By.cssSelector: [name="checkout"]
+[INFO] - [24-11-2025 16:47:53] [main] [pages.CheckOutPage] - Typed text 'mohamed' into element: By.cssSelector: [name="firstName"]
+[INFO] - [24-11-2025 16:47:53] [main] [pages.CheckOutPage] - Typed text 'ahmed' into element: By.cssSelector: [name="lastName"]
+[INFO] - [24-11-2025 16:47:53] [main] [pages.CheckOutPage] - Typed text 'zipCode1digit' into element: By.cssSelector: [name="postalCode"]
+[INFO] - [24-11-2025 16:47:54] [main] [pages.CheckOutPage] - Clicked on element: By.cssSelector: [name="continue"]
+[INFO] - [24-11-2025 16:47:54] [main] [org.testng.internal.invokers.TestInvoker] - CO_TC_015 Finished 
+[ERROR] - [24-11-2025 16:47:54] [main] [org.testng.internal.invokers.TestInvoker] - CO_TC_015Failed
+[INFO] - [24-11-2025 16:47:54] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Started 
+[INFO] - [24-11-2025 16:47:54] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Finished 
+[INFO] - [24-11-2025 16:47:54] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Started 
+[INFO] - [24-11-2025 16:47:57] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Finished 
+[INFO] - [24-11-2025 16:47:57] [main] [org.testng.internal.invokers.TestInvoker] - CO_TC_02 Started 
+[INFO] - [24-11-2025 16:47:57] [main] [org.testng.internal.invokers.TestInvoker] - CO_TC_02 Started 
+[INFO] - [24-11-2025 16:47:57] [main] [pages.LoginPage] - Typed text 'standard_user' into element: By.id: user-name
+[INFO] - [24-11-2025 16:47:57] [main] [pages.LoginPage] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [24-11-2025 16:47:57] [main] [pages.LoginPage] - Clicked on element: By.id: login-button
+[INFO] - [24-11-2025 16:47:58] [main] [pages.HomePage] - Clicked on element: By.id: add-to-cart-sauce-labs-backpack
+[INFO] - [24-11-2025 16:47:58] [main] [pages.HomePage] - Clicked on element: By.cssSelector: #shopping_cart_container > a
+[INFO] - [24-11-2025 16:47:58] [main] [pages.CartPage] - Clicked on element: By.cssSelector: [name="checkout"]
+[INFO] - [24-11-2025 16:47:58] [main] [pages.CheckOutPage] - Typed text 'mohamed' into element: By.cssSelector: [name="firstName"]
+[INFO] - [24-11-2025 16:47:58] [main] [pages.CheckOutPage] - Typed text '12345' into element: By.cssSelector: [name="postalCode"]
+[INFO] - [24-11-2025 16:47:59] [main] [pages.CheckOutPage] - Clicked on element: By.cssSelector: [name="continue"]
+[INFO] - [24-11-2025 16:47:59] [main] [org.testng.internal.invokers.TestInvoker] - CO_TC_02 Finished 
+[DEBUG] - [24-11-2025 16:47:59] [main] [org.testng.internal.invokers.TestInvoker] - CO_TC_02Success
+[INFO] - [24-11-2025 16:47:59] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Started 
+[INFO] - [24-11-2025 16:47:59] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Finished 
+[INFO] - [24-11-2025 16:47:59] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Started 
+[INFO] - [24-11-2025 16:48:02] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Finished 
+[INFO] - [24-11-2025 16:48:02] [main] [org.testng.internal.invokers.TestInvoker] - CO_TC_03 Started 
+[INFO] - [24-11-2025 16:48:02] [main] [org.testng.internal.invokers.TestInvoker] - CO_TC_03 Started 
+[INFO] - [24-11-2025 16:48:02] [main] [pages.LoginPage] - Typed text 'standard_user' into element: By.id: user-name
+[INFO] - [24-11-2025 16:48:03] [main] [pages.LoginPage] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [24-11-2025 16:48:03] [main] [pages.LoginPage] - Clicked on element: By.id: login-button
+[INFO] - [24-11-2025 16:48:03] [main] [pages.HomePage] - Clicked on element: By.id: add-to-cart-sauce-labs-backpack
+[INFO] - [24-11-2025 16:48:03] [main] [pages.HomePage] - Clicked on element: By.cssSelector: #shopping_cart_container > a
+[INFO] - [24-11-2025 16:48:03] [main] [pages.CartPage] - Clicked on element: By.cssSelector: [name="checkout"]
+[INFO] - [24-11-2025 16:48:04] [main] [pages.CheckOutPage] - Typed text 'mohamed' into element: By.cssSelector: [name="firstName"]
+[INFO] - [24-11-2025 16:48:04] [main] [pages.CheckOutPage] - Typed text 'ahmed' into element: By.cssSelector: [name="lastName"]
+[INFO] - [24-11-2025 16:48:04] [main] [pages.CheckOutPage] - Clicked on element: By.cssSelector: [name="continue"]
+[INFO] - [24-11-2025 16:48:04] [main] [org.testng.internal.invokers.TestInvoker] - CO_TC_03 Finished 
+[DEBUG] - [24-11-2025 16:48:04] [main] [org.testng.internal.invokers.TestInvoker] - CO_TC_03Success
+[INFO] - [24-11-2025 16:48:04] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Started 
+[INFO] - [24-11-2025 16:48:04] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Finished 
+[INFO] - [24-11-2025 16:48:04] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Started 
+[INFO] - [24-11-2025 16:48:08] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Finished 
+[INFO] - [24-11-2025 16:48:08] [main] [org.testng.internal.invokers.TestInvoker] - CO_TC_04 Started 
+[INFO] - [24-11-2025 16:48:08] [main] [org.testng.internal.invokers.TestInvoker] - CO_TC_04 Started 
+[INFO] - [24-11-2025 16:48:08] [main] [pages.LoginPage] - Typed text 'standard_user' into element: By.id: user-name
+[INFO] - [24-11-2025 16:48:08] [main] [pages.LoginPage] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [24-11-2025 16:48:09] [main] [pages.LoginPage] - Clicked on element: By.id: login-button
+[INFO] - [24-11-2025 16:48:09] [main] [pages.HomePage] - Clicked on element: By.id: add-to-cart-sauce-labs-backpack
+[INFO] - [24-11-2025 16:48:09] [main] [pages.HomePage] - Clicked on element: By.cssSelector: #shopping_cart_container > a
+[INFO] - [24-11-2025 16:48:09] [main] [pages.CartPage] - Clicked on element: By.cssSelector: [name="checkout"]
+[INFO] - [24-11-2025 16:48:09] [main] [pages.CheckOutPage] - Typed text 'mohamed' into element: By.cssSelector: [name="firstName"]
+[INFO] - [24-11-2025 16:48:10] [main] [pages.CheckOutPage] - Typed text 'ahmed' into element: By.cssSelector: [name="lastName"]
+[INFO] - [24-11-2025 16:48:10] [main] [pages.CheckOutPage] - Typed text '12345' into element: By.cssSelector: [name="postalCode"]
+[INFO] - [24-11-2025 16:48:10] [main] [pages.CheckOutPage] - Clicked on element: By.cssSelector: [name="cancel"]
+[INFO] - [24-11-2025 16:48:10] [main] [org.testng.internal.invokers.TestInvoker] - CO_TC_04 Finished 
+[DEBUG] - [24-11-2025 16:48:10] [main] [org.testng.internal.invokers.TestInvoker] - CO_TC_04Success
+[INFO] - [24-11-2025 16:48:10] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Started 
+[INFO] - [24-11-2025 16:48:10] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Finished 
+[INFO] - [24-11-2025 16:48:10] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Started 
+[INFO] - [24-11-2025 16:48:13] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Finished 
+[INFO] - [24-11-2025 16:48:13] [main] [org.testng.internal.invokers.TestInvoker] - CO_TC_05 Started 
+[INFO] - [24-11-2025 16:48:13] [main] [org.testng.internal.invokers.TestInvoker] - CO_TC_05 Started 
+[INFO] - [24-11-2025 16:48:14] [main] [pages.LoginPage] - Typed text 'standard_user' into element: By.id: user-name
+[INFO] - [24-11-2025 16:48:14] [main] [pages.LoginPage] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [24-11-2025 16:48:14] [main] [pages.LoginPage] - Clicked on element: By.id: login-button
+[INFO] - [24-11-2025 16:48:14] [main] [pages.HomePage] - Clicked on element: By.id: add-to-cart-sauce-labs-backpack
+[INFO] - [24-11-2025 16:48:15] [main] [pages.HomePage] - Clicked on element: By.cssSelector: #shopping_cart_container > a
+[INFO] - [24-11-2025 16:48:15] [main] [pages.CartPage] - Clicked on element: By.cssSelector: [name="checkout"]
+[INFO] - [24-11-2025 16:48:15] [main] [pages.CheckOutPage] - Typed text 'mohamed' into element: By.cssSelector: [name="firstName"]
+[INFO] - [24-11-2025 16:48:15] [main] [pages.CheckOutPage] - Typed text 'ahmed' into element: By.cssSelector: [name="lastName"]
+[INFO] - [24-11-2025 16:48:16] [main] [pages.CheckOutPage] - Typed text '12345' into element: By.cssSelector: [name="postalCode"]
+[INFO] - [24-11-2025 16:48:16] [main] [pages.CheckOutPage] - Clicked on element: By.cssSelector: [name="continue"]
+[INFO] - [24-11-2025 16:48:16] [main] [org.testng.internal.invokers.TestInvoker] - CO_TC_05 Finished 
+[DEBUG] - [24-11-2025 16:48:16] [main] [org.testng.internal.invokers.TestInvoker] - CO_TC_05Success
+[INFO] - [24-11-2025 16:48:16] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Started 
+[INFO] - [24-11-2025 16:48:16] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Finished 
+[INFO] - [24-11-2025 16:48:16] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Started 
+[INFO] - [24-11-2025 16:48:23] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Finished 
+[INFO] - [24-11-2025 16:48:23] [main] [org.testng.internal.invokers.TestInvoker] - CO_TC_06 Started 
+[INFO] - [24-11-2025 16:48:23] [main] [org.testng.internal.invokers.TestInvoker] - CO_TC_06 Started 
+[INFO] - [24-11-2025 16:48:23] [main] [pages.LoginPage] - Typed text 'standard_user' into element: By.id: user-name
+[INFO] - [24-11-2025 16:48:23] [main] [pages.LoginPage] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [24-11-2025 16:48:23] [main] [pages.LoginPage] - Clicked on element: By.id: login-button
+[INFO] - [24-11-2025 16:48:24] [main] [pages.HomePage] - Clicked on element: By.id: add-to-cart-sauce-labs-backpack
+[INFO] - [24-11-2025 16:48:24] [main] [pages.HomePage] - Clicked on element: By.cssSelector: #shopping_cart_container > a
+[INFO] - [24-11-2025 16:48:24] [main] [pages.CartPage] - Clicked on element: By.cssSelector: [name="checkout"]
+[INFO] - [24-11-2025 16:48:24] [main] [pages.CheckOutPage] - Typed text 'mohamed' into element: By.cssSelector: [name="firstName"]
+[INFO] - [24-11-2025 16:48:24] [main] [pages.CheckOutPage] - Typed text 'ahmed' into element: By.cssSelector: [name="lastName"]
+[INFO] - [24-11-2025 16:48:24] [main] [pages.CheckOutPage] - Typed text '12345' into element: By.cssSelector: [name="postalCode"]
+[INFO] - [24-11-2025 16:48:25] [main] [pages.CheckOutPage] - Clicked on element: By.cssSelector: [data-test="shopping-cart-link"]
+[INFO] - [24-11-2025 16:48:25] [main] [org.testng.internal.invokers.TestInvoker] - CO_TC_06 Finished 
+[DEBUG] - [24-11-2025 16:48:25] [main] [org.testng.internal.invokers.TestInvoker] - CO_TC_06Success
+[INFO] - [24-11-2025 16:48:25] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Started 
+[INFO] - [24-11-2025 16:48:25] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Finished 
+[INFO] - [24-11-2025 16:48:25] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Started 
+[INFO] - [24-11-2025 16:48:31] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Finished 
+[INFO] - [24-11-2025 16:48:31] [main] [org.testng.internal.invokers.TestInvoker] - CO_TC_07 Started 
+[INFO] - [24-11-2025 16:48:31] [main] [org.testng.internal.invokers.TestInvoker] - CO_TC_07 Started 
+[INFO] - [24-11-2025 16:48:31] [main] [pages.LoginPage] - Typed text 'standard_user' into element: By.id: user-name
+[INFO] - [24-11-2025 16:48:31] [main] [pages.LoginPage] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [24-11-2025 16:48:31] [main] [pages.LoginPage] - Clicked on element: By.id: login-button
+[INFO] - [24-11-2025 16:48:32] [main] [pages.HomePage] - Clicked on element: By.id: add-to-cart-sauce-labs-backpack
+[INFO] - [24-11-2025 16:48:32] [main] [pages.HomePage] - Clicked on element: By.cssSelector: #shopping_cart_container > a
+[INFO] - [24-11-2025 16:48:32] [main] [pages.CartPage] - Clicked on element: By.cssSelector: [name="checkout"]
+[INFO] - [24-11-2025 16:48:32] [main] [pages.CheckOutPage] - Clicked on element: By.cssSelector: [data-test="social-twitter"]
+[INFO] - [24-11-2025 16:48:38] [main] [pages.CheckOutPage] - Clicked on element: By.cssSelector: [data-test="social-twitter"]
+[INFO] - [24-11-2025 16:48:38] [main] [org.testng.internal.invokers.TestInvoker] - CO_TC_07 Finished 
+[DEBUG] - [24-11-2025 16:48:38] [main] [org.testng.internal.invokers.TestInvoker] - CO_TC_07Success
+[INFO] - [24-11-2025 16:48:38] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Started 
+[INFO] - [24-11-2025 16:48:38] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Finished 
+[INFO] - [24-11-2025 16:48:38] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Started 
+[INFO] - [24-11-2025 16:48:45] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Finished 
+[INFO] - [24-11-2025 16:48:45] [main] [org.testng.internal.invokers.TestInvoker] - CO_TC_08 Started 
+[INFO] - [24-11-2025 16:48:45] [main] [org.testng.internal.invokers.TestInvoker] - CO_TC_08 Started 
+[INFO] - [24-11-2025 16:48:45] [main] [pages.LoginPage] - Typed text 'standard_user' into element: By.id: user-name
+[INFO] - [24-11-2025 16:48:45] [main] [pages.LoginPage] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [24-11-2025 16:48:46] [main] [pages.LoginPage] - Clicked on element: By.id: login-button
+[INFO] - [24-11-2025 16:48:46] [main] [pages.HomePage] - Clicked on element: By.id: add-to-cart-sauce-labs-backpack
+[INFO] - [24-11-2025 16:48:46] [main] [pages.HomePage] - Clicked on element: By.cssSelector: #shopping_cart_container > a
+[INFO] - [24-11-2025 16:48:46] [main] [pages.CartPage] - Clicked on element: By.cssSelector: [name="checkout"]
+[INFO] - [24-11-2025 16:48:46] [main] [pages.CheckOutPage] - Clicked on element: By.cssSelector: [data-test="social-facebook"]
+[INFO] - [24-11-2025 16:48:48] [main] [org.testng.internal.invokers.TestInvoker] - CO_TC_08 Finished 
+[ERROR] - [24-11-2025 16:48:48] [main] [org.testng.internal.invokers.TestInvoker] - CO_TC_08Failed
+[INFO] - [24-11-2025 16:48:48] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Started 
+[INFO] - [24-11-2025 16:48:48] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Finished 
+[INFO] - [24-11-2025 16:48:48] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Started 
+[INFO] - [24-11-2025 16:48:50] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Finished 
+[INFO] - [24-11-2025 16:48:50] [main] [org.testng.internal.invokers.TestInvoker] - CO_TC_09 Started 
+[INFO] - [24-11-2025 16:48:50] [main] [org.testng.internal.invokers.TestInvoker] - CO_TC_09 Started 
+[INFO] - [24-11-2025 16:48:51] [main] [pages.LoginPage] - Typed text 'standard_user' into element: By.id: user-name
+[INFO] - [24-11-2025 16:48:51] [main] [pages.LoginPage] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [24-11-2025 16:48:51] [main] [pages.LoginPage] - Clicked on element: By.id: login-button
+[INFO] - [24-11-2025 16:48:51] [main] [pages.HomePage] - Clicked on element: By.id: add-to-cart-sauce-labs-backpack
+[INFO] - [24-11-2025 16:48:51] [main] [pages.HomePage] - Clicked on element: By.cssSelector: #shopping_cart_container > a
+[INFO] - [24-11-2025 16:48:51] [main] [pages.CartPage] - Clicked on element: By.cssSelector: [name="checkout"]
+[INFO] - [24-11-2025 16:48:52] [main] [pages.CheckOutPage] - Clicked on element: By.cssSelector: [data-test="social-linkedin"]
+[INFO] - [24-11-2025 16:48:53] [main] [org.testng.internal.invokers.TestInvoker] - CO_TC_09 Finished 
+[DEBUG] - [24-11-2025 16:48:53] [main] [org.testng.internal.invokers.TestInvoker] - CO_TC_09Success
+[INFO] - [24-11-2025 16:48:53] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Started 
+[INFO] - [24-11-2025 16:48:53] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Finished 
+[INFO] - [24-11-2025 16:48:53] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Started 
+[INFO] - [24-11-2025 16:49:01] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Finished 
+[INFO] - [24-11-2025 16:49:01] [main] [org.testng.internal.invokers.TestInvoker] - C_TC_01 Started 
+[INFO] - [24-11-2025 16:49:01] [main] [org.testng.internal.invokers.TestInvoker] - C_TC_01 Started 
+[INFO] - [24-11-2025 16:49:01] [main] [pages.LoginPage] - Typed text 'standard_user' into element: By.id: user-name
+[INFO] - [24-11-2025 16:49:01] [main] [pages.LoginPage] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [24-11-2025 16:49:01] [main] [pages.LoginPage] - Clicked on element: By.id: login-button
+[INFO] - [24-11-2025 16:49:01] [main] [pages.HomePage] - Clicked on element: By.id: add-to-cart-sauce-labs-backpack
+[INFO] - [24-11-2025 16:49:02] [main] [pages.HomePage] - Clicked on element: By.id: add-to-cart-sauce-labs-bike-light
+[INFO] - [24-11-2025 16:49:02] [main] [pages.HomePage] - Clicked on element: By.cssSelector: #shopping_cart_container > a
+[INFO] - [24-11-2025 16:49:02] [main] [pages.CartPage] - Clicked on element: By.cssSelector: [name="checkout"]
+[INFO] - [24-11-2025 16:49:02] [main] [pages.CheckOutPage] - Typed text 'mohamed' into element: By.cssSelector: [name="firstName"]
+[INFO] - [24-11-2025 16:49:02] [main] [pages.CheckOutPage] - Typed text 'ahmed' into element: By.cssSelector: [name="lastName"]
+[INFO] - [24-11-2025 16:49:03] [main] [pages.CheckOutPage] - Typed text '12345' into element: By.cssSelector: [name="postalCode"]
+[INFO] - [24-11-2025 16:49:03] [main] [pages.CheckOutPage] - Clicked on element: By.cssSelector: [name="continue"]
+[INFO] - [24-11-2025 16:49:03] [main] [pages.OverViewPage] - Clicked on element: By.cssSelector: [name="finish"]
+[INFO] - [24-11-2025 16:49:03] [main] [org.testng.internal.invokers.TestInvoker] - C_TC_01 Finished 
+[DEBUG] - [24-11-2025 16:49:03] [main] [org.testng.internal.invokers.TestInvoker] - C_TC_01Success
+[INFO] - [24-11-2025 16:49:03] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Started 
+[INFO] - [24-11-2025 16:49:03] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Finished 
+[INFO] - [24-11-2025 16:49:03] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Started 
+[INFO] - [24-11-2025 16:49:08] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Finished 
+[INFO] - [24-11-2025 16:49:08] [main] [org.testng.internal.invokers.TestInvoker] - C_TC_02 Started 
+[INFO] - [24-11-2025 16:49:08] [main] [org.testng.internal.invokers.TestInvoker] - C_TC_02 Started 
+[INFO] - [24-11-2025 16:49:08] [main] [pages.LoginPage] - Typed text 'standard_user' into element: By.id: user-name
+[INFO] - [24-11-2025 16:49:08] [main] [pages.LoginPage] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [24-11-2025 16:49:08] [main] [pages.LoginPage] - Clicked on element: By.id: login-button
+[INFO] - [24-11-2025 16:49:08] [main] [pages.HomePage] - Clicked on element: By.id: add-to-cart-sauce-labs-backpack
+[INFO] - [24-11-2025 16:49:09] [main] [pages.HomePage] - Clicked on element: By.id: add-to-cart-sauce-labs-bike-light
+[INFO] - [24-11-2025 16:49:09] [main] [pages.HomePage] - Clicked on element: By.cssSelector: #shopping_cart_container > a
+[INFO] - [24-11-2025 16:49:09] [main] [pages.CartPage] - Clicked on element: By.cssSelector: [name="checkout"]
+[INFO] - [24-11-2025 16:49:09] [main] [pages.CheckOutPage] - Typed text 'mohamed' into element: By.cssSelector: [name="firstName"]
+[INFO] - [24-11-2025 16:49:09] [main] [pages.CheckOutPage] - Typed text 'ahmed' into element: By.cssSelector: [name="lastName"]
+[INFO] - [24-11-2025 16:49:10] [main] [pages.CheckOutPage] - Typed text '12345' into element: By.cssSelector: [name="postalCode"]
+[INFO] - [24-11-2025 16:49:10] [main] [pages.CheckOutPage] - Clicked on element: By.cssSelector: [name="continue"]
+[INFO] - [24-11-2025 16:49:10] [main] [pages.OverViewPage] - Clicked on element: By.cssSelector: [name="finish"]
+[INFO] - [24-11-2025 16:49:10] [main] [pages.CompletePage] - Clicked on element: By.cssSelector: [data-test="back-to-products"]
+[INFO] - [24-11-2025 16:49:10] [main] [org.testng.internal.invokers.TestInvoker] - C_TC_02 Finished 
+[DEBUG] - [24-11-2025 16:49:10] [main] [org.testng.internal.invokers.TestInvoker] - C_TC_02Success
+[INFO] - [24-11-2025 16:49:10] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Started 
+[INFO] - [24-11-2025 16:49:10] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Finished 
+[INFO] - [24-11-2025 16:49:10] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Started 
+[INFO] - [24-11-2025 16:49:15] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Finished 
+[INFO] - [24-11-2025 16:49:15] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_01 Started 
+[INFO] - [24-11-2025 16:49:15] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_01 Started 
+[INFO] - [24-11-2025 16:49:15] [main] [pages.LoginPage] - Typed text 'standard_user' into element: By.id: user-name
+[INFO] - [24-11-2025 16:49:15] [main] [pages.LoginPage] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [24-11-2025 16:49:15] [main] [pages.LoginPage] - Clicked on element: By.id: login-button
+[INFO] - [24-11-2025 16:49:15] [main] [pages.HomePage] - Clicked on element: By.id: add-to-cart-sauce-labs-backpack
+[INFO] - [24-11-2025 16:49:15] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_01 Finished 
+[DEBUG] - [24-11-2025 16:49:15] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_01Success
+[INFO] - [24-11-2025 16:49:15] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Started 
+[INFO] - [24-11-2025 16:49:16] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Finished 
+[INFO] - [24-11-2025 16:49:16] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Started 
+[INFO] - [24-11-2025 16:49:20] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Finished 
+[INFO] - [24-11-2025 16:49:20] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_02 Started 
+[INFO] - [24-11-2025 16:49:20] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_02 Started 
+[INFO] - [24-11-2025 16:49:20] [main] [pages.LoginPage] - Typed text 'standard_user' into element: By.id: user-name
+[INFO] - [24-11-2025 16:49:20] [main] [pages.LoginPage] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [24-11-2025 16:49:20] [main] [pages.LoginPage] - Clicked on element: By.id: login-button
+[INFO] - [24-11-2025 16:49:20] [main] [pages.HomePage] - Clicked on element: By.id: add-to-cart-sauce-labs-bike-light
+[INFO] - [24-11-2025 16:49:20] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_02 Finished 
+[DEBUG] - [24-11-2025 16:49:20] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_02Success
+[INFO] - [24-11-2025 16:49:20] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Started 
+[INFO] - [24-11-2025 16:49:20] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Finished 
+[INFO] - [24-11-2025 16:49:20] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Started 
+[INFO] - [24-11-2025 16:49:22] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Finished 
+[INFO] - [24-11-2025 16:49:22] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_03 Started 
+[INFO] - [24-11-2025 16:49:22] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_03 Started 
+[INFO] - [24-11-2025 16:49:23] [main] [pages.LoginPage] - Typed text 'standard_user' into element: By.id: user-name
+[INFO] - [24-11-2025 16:49:23] [main] [pages.LoginPage] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [24-11-2025 16:49:23] [main] [pages.LoginPage] - Clicked on element: By.id: login-button
+[INFO] - [24-11-2025 16:49:23] [main] [pages.HomePage] - Clicked on element: By.id: add-to-cart-sauce-labs-bolt-t-shirt
+[INFO] - [24-11-2025 16:49:23] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_03 Finished 
+[DEBUG] - [24-11-2025 16:49:23] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_03Success
+[INFO] - [24-11-2025 16:49:23] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Started 
+[INFO] - [24-11-2025 16:49:23] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Finished 
+[INFO] - [24-11-2025 16:49:23] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Started 
+[INFO] - [24-11-2025 16:49:26] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Finished 
+[INFO] - [24-11-2025 16:49:26] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_04 Started 
+[INFO] - [24-11-2025 16:49:26] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_04 Started 
+[INFO] - [24-11-2025 16:49:26] [main] [pages.LoginPage] - Typed text 'standard_user' into element: By.id: user-name
+[INFO] - [24-11-2025 16:49:26] [main] [pages.LoginPage] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [24-11-2025 16:49:26] [main] [pages.LoginPage] - Clicked on element: By.id: login-button
+[INFO] - [24-11-2025 16:49:27] [main] [pages.HomePage] - Clicked on element: By.id: add-to-cart-sauce-labs-fleece-jacket
+[INFO] - [24-11-2025 16:49:27] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_04 Finished 
+[DEBUG] - [24-11-2025 16:49:27] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_04Success
+[INFO] - [24-11-2025 16:49:27] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Started 
+[INFO] - [24-11-2025 16:49:27] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Finished 
+[INFO] - [24-11-2025 16:49:27] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Started 
+[INFO] - [24-11-2025 16:49:29] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Finished 
+[INFO] - [24-11-2025 16:49:29] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_05 Started 
+[INFO] - [24-11-2025 16:49:29] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_05 Started 
+[INFO] - [24-11-2025 16:49:29] [main] [pages.LoginPage] - Typed text 'standard_user' into element: By.id: user-name
+[INFO] - [24-11-2025 16:49:29] [main] [pages.LoginPage] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [24-11-2025 16:49:30] [main] [pages.LoginPage] - Clicked on element: By.id: login-button
+[INFO] - [24-11-2025 16:49:30] [main] [pages.HomePage] - Clicked on element: By.id: add-to-cart-sauce-labs-onesie
+[INFO] - [24-11-2025 16:49:30] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_05 Finished 
+[DEBUG] - [24-11-2025 16:49:30] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_05Success
+[INFO] - [24-11-2025 16:49:30] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Started 
+[INFO] - [24-11-2025 16:49:30] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Finished 
+[INFO] - [24-11-2025 16:49:30] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Started 
+[INFO] - [24-11-2025 16:49:34] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Finished 
+[INFO] - [24-11-2025 16:49:34] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_06 Started 
+[INFO] - [24-11-2025 16:49:34] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_06 Started 
+[INFO] - [24-11-2025 16:49:34] [main] [pages.LoginPage] - Typed text 'standard_user' into element: By.id: user-name
+[INFO] - [24-11-2025 16:49:34] [main] [pages.LoginPage] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [24-11-2025 16:49:34] [main] [pages.LoginPage] - Clicked on element: By.id: login-button
+[INFO] - [24-11-2025 16:49:34] [main] [pages.HomePage] - Clicked on element: By.id: add-to-cart-test.allthethings()-t-shirt-(red)
+[INFO] - [24-11-2025 16:49:34] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_06 Finished 
+[DEBUG] - [24-11-2025 16:49:34] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_06Success
+[INFO] - [24-11-2025 16:49:34] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Started 
+[INFO] - [24-11-2025 16:49:35] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Finished 
+[INFO] - [24-11-2025 16:49:35] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Started 
+[INFO] - [24-11-2025 16:49:38] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Finished 
+[INFO] - [24-11-2025 16:49:38] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_07 Started 
+[INFO] - [24-11-2025 16:49:38] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_07 Started 
+[INFO] - [24-11-2025 16:49:38] [main] [pages.LoginPage] - Typed text 'standard_user' into element: By.id: user-name
+[INFO] - [24-11-2025 16:49:38] [main] [pages.LoginPage] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [24-11-2025 16:49:38] [main] [pages.LoginPage] - Clicked on element: By.id: login-button
+[INFO] - [24-11-2025 16:49:39] [main] [pages.HomePage] - Clicked on element: By.id: add-to-cart-sauce-labs-backpack
+[INFO] - [24-11-2025 16:49:39] [main] [pages.HomePage] - Clicked on element: By.id: add-to-cart-sauce-labs-bike-light
+[INFO] - [24-11-2025 16:49:39] [main] [pages.HomePage] - Clicked on element: By.id: add-to-cart-sauce-labs-bolt-t-shirt
+[INFO] - [24-11-2025 16:49:39] [main] [pages.HomePage] - Clicked on element: By.id: add-to-cart-sauce-labs-fleece-jacket
+[INFO] - [24-11-2025 16:49:39] [main] [pages.HomePage] - Clicked on element: By.id: add-to-cart-sauce-labs-onesie
+[INFO] - [24-11-2025 16:49:40] [main] [pages.HomePage] - Clicked on element: By.id: add-to-cart-test.allthethings()-t-shirt-(red)
+[INFO] - [24-11-2025 16:49:40] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_07 Finished 
+[DEBUG] - [24-11-2025 16:49:40] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_07Success
+[INFO] - [24-11-2025 16:49:40] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Started 
+[INFO] - [24-11-2025 16:49:40] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Finished 
+[INFO] - [24-11-2025 16:49:40] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Started 
+[INFO] - [24-11-2025 16:49:44] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Finished 
+[INFO] - [24-11-2025 16:49:44] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_08 Started 
+[INFO] - [24-11-2025 16:49:44] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_08 Started 
+[INFO] - [24-11-2025 16:49:44] [main] [pages.LoginPage] - Typed text 'standard_user' into element: By.id: user-name
+[INFO] - [24-11-2025 16:49:45] [main] [pages.LoginPage] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [24-11-2025 16:49:45] [main] [pages.LoginPage] - Clicked on element: By.id: login-button
+[INFO] - [24-11-2025 16:49:45] [main] [pages.HomePage] - Clicked on element: By.id: add-to-cart-sauce-labs-backpack
+[INFO] - [24-11-2025 16:49:45] [main] [pages.HomePage] - Clicked on element: By.id: remove-sauce-labs-backpack
+[INFO] - [24-11-2025 16:49:45] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_08 Finished 
+[DEBUG] - [24-11-2025 16:49:45] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_08Success
+[INFO] - [24-11-2025 16:49:45] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Started 
+[INFO] - [24-11-2025 16:49:45] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Finished 
+[INFO] - [24-11-2025 16:49:45] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Started 
+[INFO] - [24-11-2025 16:49:50] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Finished 
+[INFO] - [24-11-2025 16:49:50] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_09 Started 
+[INFO] - [24-11-2025 16:49:50] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_09 Started 
+[INFO] - [24-11-2025 16:49:50] [main] [pages.LoginPage] - Typed text 'standard_user' into element: By.id: user-name
+[INFO] - [24-11-2025 16:49:50] [main] [pages.LoginPage] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [24-11-2025 16:49:50] [main] [pages.LoginPage] - Clicked on element: By.id: login-button
+[INFO] - [24-11-2025 16:49:51] [main] [pages.HomePage] - Clicked on element: By.id: add-to-cart-sauce-labs-bike-light
+[INFO] - [24-11-2025 16:49:51] [main] [pages.HomePage] - Clicked on element: By.id: remove-sauce-labs-bike-light
+[INFO] - [24-11-2025 16:49:51] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_09 Finished 
+[DEBUG] - [24-11-2025 16:49:51] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_09Success
+[INFO] - [24-11-2025 16:49:51] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Started 
+[INFO] - [24-11-2025 16:49:51] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Finished 
+[INFO] - [24-11-2025 16:49:51] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Started 
+[INFO] - [24-11-2025 16:49:54] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Finished 
+[INFO] - [24-11-2025 16:49:54] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_10 Started 
+[INFO] - [24-11-2025 16:49:54] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_10 Started 
+[INFO] - [24-11-2025 16:49:54] [main] [pages.LoginPage] - Typed text 'standard_user' into element: By.id: user-name
+[INFO] - [24-11-2025 16:49:54] [main] [pages.LoginPage] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [24-11-2025 16:49:55] [main] [pages.LoginPage] - Clicked on element: By.id: login-button
+[INFO] - [24-11-2025 16:49:55] [main] [pages.HomePage] - Clicked on element: By.id: add-to-cart-sauce-labs-bolt-t-shirt
+[INFO] - [24-11-2025 16:49:55] [main] [pages.HomePage] - Clicked on element: By.id: remove-sauce-labs-bolt-t-shirt
+[INFO] - [24-11-2025 16:49:55] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_10 Finished 
+[DEBUG] - [24-11-2025 16:49:55] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_10Success
+[INFO] - [24-11-2025 16:49:55] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Started 
+[INFO] - [24-11-2025 16:49:55] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Finished 
+[INFO] - [24-11-2025 16:49:55] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Started 
+[INFO] - [24-11-2025 16:49:58] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Finished 
+[INFO] - [24-11-2025 16:49:58] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_11 Started 
+[INFO] - [24-11-2025 16:49:58] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_11 Started 
+[INFO] - [24-11-2025 16:49:58] [main] [pages.LoginPage] - Typed text 'standard_user' into element: By.id: user-name
+[INFO] - [24-11-2025 16:49:58] [main] [pages.LoginPage] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [24-11-2025 16:49:59] [main] [pages.LoginPage] - Clicked on element: By.id: login-button
+[INFO] - [24-11-2025 16:49:59] [main] [pages.HomePage] - Clicked on element: By.id: add-to-cart-sauce-labs-fleece-jacket
+[INFO] - [24-11-2025 16:49:59] [main] [pages.HomePage] - Clicked on element: By.id: remove-sauce-labs-fleece-jacket
+[INFO] - [24-11-2025 16:49:59] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_11 Finished 
+[DEBUG] - [24-11-2025 16:49:59] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_11Success
+[INFO] - [24-11-2025 16:49:59] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Started 
+[INFO] - [24-11-2025 16:49:59] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Finished 
+[INFO] - [24-11-2025 16:49:59] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Started 
+[INFO] - [24-11-2025 16:50:09] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Finished 
+[INFO] - [24-11-2025 16:50:09] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_12 Started 
+[INFO] - [24-11-2025 16:50:09] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_12 Started 
+[INFO] - [24-11-2025 16:50:10] [main] [pages.LoginPage] - Typed text 'standard_user' into element: By.id: user-name
+[INFO] - [24-11-2025 16:50:10] [main] [pages.LoginPage] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [24-11-2025 16:50:10] [main] [pages.LoginPage] - Clicked on element: By.id: login-button
+[INFO] - [24-11-2025 16:50:10] [main] [pages.HomePage] - Clicked on element: By.id: add-to-cart-sauce-labs-onesie
+[INFO] - [24-11-2025 16:50:10] [main] [pages.HomePage] - Clicked on element: By.id: remove-sauce-labs-onesie
+[INFO] - [24-11-2025 16:50:10] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_12 Finished 
+[DEBUG] - [24-11-2025 16:50:10] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_12Success
+[INFO] - [24-11-2025 16:50:10] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Started 
+[INFO] - [24-11-2025 16:50:11] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Finished 
+[INFO] - [24-11-2025 16:50:11] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Started 
+[INFO] - [24-11-2025 16:50:14] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Finished 
+[INFO] - [24-11-2025 16:50:14] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_13 Started 
+[INFO] - [24-11-2025 16:50:14] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_13 Started 
+[INFO] - [24-11-2025 16:50:14] [main] [pages.LoginPage] - Typed text 'standard_user' into element: By.id: user-name
+[INFO] - [24-11-2025 16:50:14] [main] [pages.LoginPage] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [24-11-2025 16:50:14] [main] [pages.LoginPage] - Clicked on element: By.id: login-button
+[INFO] - [24-11-2025 16:50:15] [main] [pages.HomePage] - Clicked on element: By.id: add-to-cart-test.allthethings()-t-shirt-(red)
+[INFO] - [24-11-2025 16:50:15] [main] [pages.HomePage] - Clicked on element: By.id: remove-test.allthethings()-t-shirt-(red)
+[INFO] - [24-11-2025 16:50:15] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_13 Finished 
+[DEBUG] - [24-11-2025 16:50:15] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_13Success
+[INFO] - [24-11-2025 16:50:15] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Started 
+[INFO] - [24-11-2025 16:50:15] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Finished 
+[INFO] - [24-11-2025 16:50:15] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Started 
+[INFO] - [24-11-2025 16:50:19] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Finished 
+[INFO] - [24-11-2025 16:50:19] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_14 Started 
+[INFO] - [24-11-2025 16:50:19] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_14 Started 
+[INFO] - [24-11-2025 16:50:20] [main] [pages.LoginPage] - Typed text 'standard_user' into element: By.id: user-name
+[INFO] - [24-11-2025 16:50:20] [main] [pages.LoginPage] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [24-11-2025 16:50:20] [main] [pages.LoginPage] - Clicked on element: By.id: login-button
+[INFO] - [24-11-2025 16:50:20] [main] [pages.HomePage] - Clicked on element: By.id: add-to-cart-sauce-labs-backpack
+[INFO] - [24-11-2025 16:50:21] [main] [pages.HomePage] - Clicked on element: By.id: add-to-cart-sauce-labs-bike-light
+[INFO] - [24-11-2025 16:50:21] [main] [pages.HomePage] - Clicked on element: By.id: add-to-cart-sauce-labs-bolt-t-shirt
+[INFO] - [24-11-2025 16:50:21] [main] [pages.HomePage] - Clicked on element: By.id: add-to-cart-sauce-labs-fleece-jacket
+[INFO] - [24-11-2025 16:50:21] [main] [pages.HomePage] - Clicked on element: By.id: add-to-cart-sauce-labs-onesie
+[INFO] - [24-11-2025 16:50:21] [main] [pages.HomePage] - Clicked on element: By.id: add-to-cart-test.allthethings()-t-shirt-(red)
+[INFO] - [24-11-2025 16:50:22] [main] [pages.HomePage] - Clicked on element: By.id: remove-sauce-labs-backpack
+[INFO] - [24-11-2025 16:50:22] [main] [pages.HomePage] - Clicked on element: By.id: remove-sauce-labs-bike-light
+[INFO] - [24-11-2025 16:50:22] [main] [pages.HomePage] - Clicked on element: By.id: remove-sauce-labs-bolt-t-shirt
+[INFO] - [24-11-2025 16:50:22] [main] [pages.HomePage] - Clicked on element: By.id: remove-sauce-labs-fleece-jacket
+[INFO] - [24-11-2025 16:50:22] [main] [pages.HomePage] - Clicked on element: By.id: remove-sauce-labs-onesie
+[INFO] - [24-11-2025 16:50:23] [main] [pages.HomePage] - Clicked on element: By.id: remove-test.allthethings()-t-shirt-(red)
+[INFO] - [24-11-2025 16:50:23] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_14 Finished 
+[DEBUG] - [24-11-2025 16:50:23] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_14Success
+[INFO] - [24-11-2025 16:50:23] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Started 
+[INFO] - [24-11-2025 16:50:23] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Finished 
+[INFO] - [24-11-2025 16:50:23] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Started 
+[INFO] - [24-11-2025 16:50:27] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Finished 
+[INFO] - [24-11-2025 16:50:27] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_15 Started 
+[INFO] - [24-11-2025 16:50:27] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_15 Started 
+[INFO] - [24-11-2025 16:50:27] [main] [pages.LoginPage] - Typed text 'standard_user' into element: By.id: user-name
+[INFO] - [24-11-2025 16:50:27] [main] [pages.LoginPage] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [24-11-2025 16:50:27] [main] [pages.LoginPage] - Clicked on element: By.id: login-button
+[INFO] - [24-11-2025 16:50:28] [main] [pages.HomePage] - Clicked on element: By.cssSelector: [src="/static/media/sauce-backpack-1200x1500.0a0b85a385945026062b.jpg"]
+[INFO] - [24-11-2025 16:50:28] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_15 Finished 
+[DEBUG] - [24-11-2025 16:50:28] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_15Success
+[INFO] - [24-11-2025 16:50:28] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Started 
+[INFO] - [24-11-2025 16:50:28] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Finished 
+[INFO] - [24-11-2025 16:50:28] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Started 
+[INFO] - [24-11-2025 16:50:32] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Finished 
+[INFO] - [24-11-2025 16:50:32] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_16 Started 
+[INFO] - [24-11-2025 16:50:32] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_16 Started 
+[INFO] - [24-11-2025 16:50:32] [main] [pages.LoginPage] - Typed text 'standard_user' into element: By.id: user-name
+[INFO] - [24-11-2025 16:50:32] [main] [pages.LoginPage] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [24-11-2025 16:50:32] [main] [pages.LoginPage] - Clicked on element: By.id: login-button
+[INFO] - [24-11-2025 16:50:33] [main] [pages.HomePage] - Clicked on element: By.cssSelector: #item_4_title_link > div
+[INFO] - [24-11-2025 16:50:33] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_16 Finished 
+[DEBUG] - [24-11-2025 16:50:33] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_16Success
+[INFO] - [24-11-2025 16:50:33] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Started 
+[INFO] - [24-11-2025 16:50:33] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Finished 
+[INFO] - [24-11-2025 16:50:33] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Started 
+[INFO] - [24-11-2025 16:50:38] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Finished 
+[INFO] - [24-11-2025 16:50:38] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_17 Started 
+[INFO] - [24-11-2025 16:50:38] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_17 Started 
+[INFO] - [24-11-2025 16:50:39] [main] [pages.LoginPage] - Typed text 'standard_user' into element: By.id: user-name
+[INFO] - [24-11-2025 16:50:39] [main] [pages.LoginPage] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [24-11-2025 16:50:39] [main] [pages.LoginPage] - Clicked on element: By.id: login-button
+[INFO] - [24-11-2025 16:50:40] [main] [pages.HomePage] - Clicked on element: By.cssSelector: [src="/static/media/bike-light-1200x1500.37c843b09a7d77409d63.jpg"]
+[INFO] - [24-11-2025 16:50:40] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_17 Finished 
+[DEBUG] - [24-11-2025 16:50:40] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_17Success
+[INFO] - [24-11-2025 16:50:40] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Started 
+[INFO] - [24-11-2025 16:50:40] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Finished 
+[INFO] - [24-11-2025 16:50:40] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Started 
+[INFO] - [24-11-2025 16:50:43] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Finished 
+[INFO] - [24-11-2025 16:50:43] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_18 Started 
+[INFO] - [24-11-2025 16:50:43] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_18 Started 
+[INFO] - [24-11-2025 16:50:44] [main] [pages.LoginPage] - Typed text 'standard_user' into element: By.id: user-name
+[INFO] - [24-11-2025 16:50:44] [main] [pages.LoginPage] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [24-11-2025 16:50:44] [main] [pages.LoginPage] - Clicked on element: By.id: login-button
+[INFO] - [24-11-2025 16:50:44] [main] [pages.HomePage] - Clicked on element: By.cssSelector: #item_0_title_link > div
+[INFO] - [24-11-2025 16:50:44] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_18 Finished 
+[DEBUG] - [24-11-2025 16:50:44] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_18Success
+[INFO] - [24-11-2025 16:50:44] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Started 
+[INFO] - [24-11-2025 16:50:45] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Finished 
+[INFO] - [24-11-2025 16:50:45] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Started 
+[INFO] - [24-11-2025 16:50:51] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Finished 
+[INFO] - [24-11-2025 16:50:51] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_19 Started 
+[INFO] - [24-11-2025 16:50:51] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_19 Started 
+[INFO] - [24-11-2025 16:50:51] [main] [pages.LoginPage] - Typed text 'standard_user' into element: By.id: user-name
+[INFO] - [24-11-2025 16:50:51] [main] [pages.LoginPage] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [24-11-2025 16:50:51] [main] [pages.LoginPage] - Clicked on element: By.id: login-button
+[INFO] - [24-11-2025 16:50:52] [main] [pages.HomePage] - Clicked on element: By.cssSelector: [src="/static/media/bolt-shirt-1200x1500.c2599ac5f0a35ed5931e.jpg"]
+[INFO] - [24-11-2025 16:50:52] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_19 Finished 
+[DEBUG] - [24-11-2025 16:50:52] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_19Success
+[INFO] - [24-11-2025 16:50:52] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Started 
+[INFO] - [24-11-2025 16:50:52] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Finished 
+[INFO] - [24-11-2025 16:50:52] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Started 
+[INFO] - [24-11-2025 16:50:55] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Finished 
+[INFO] - [24-11-2025 16:50:55] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_20 Started 
+[INFO] - [24-11-2025 16:50:55] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_20 Started 
+[INFO] - [24-11-2025 16:50:55] [main] [pages.LoginPage] - Typed text 'standard_user' into element: By.id: user-name
+[INFO] - [24-11-2025 16:50:56] [main] [pages.LoginPage] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [24-11-2025 16:50:56] [main] [pages.LoginPage] - Clicked on element: By.id: login-button
+[INFO] - [24-11-2025 16:50:56] [main] [pages.HomePage] - Clicked on element: By.cssSelector: #item_1_title_link > div
+[INFO] - [24-11-2025 16:50:56] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_20 Finished 
+[DEBUG] - [24-11-2025 16:50:56] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_20Success
+[INFO] - [24-11-2025 16:50:56] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Started 
+[INFO] - [24-11-2025 16:50:56] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Finished 
+[INFO] - [24-11-2025 16:50:56] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Started 
+[INFO] - [24-11-2025 16:50:59] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Finished 
+[INFO] - [24-11-2025 16:50:59] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_21 Started 
+[INFO] - [24-11-2025 16:50:59] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_21 Started 
+[INFO] - [24-11-2025 16:50:59] [main] [pages.LoginPage] - Typed text 'standard_user' into element: By.id: user-name
+[INFO] - [24-11-2025 16:51:00] [main] [pages.LoginPage] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [24-11-2025 16:51:00] [main] [pages.LoginPage] - Clicked on element: By.id: login-button
+[INFO] - [24-11-2025 16:51:00] [main] [pages.HomePage] - Clicked on element: By.cssSelector: [src="/static/media/sauce-pullover-1200x1500.51d7ffaf301e698772c8.jpg"]
+[INFO] - [24-11-2025 16:51:00] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_21 Finished 
+[DEBUG] - [24-11-2025 16:51:00] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_21Success
+[INFO] - [24-11-2025 16:51:00] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Started 
+[INFO] - [24-11-2025 16:51:00] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Finished 
+[INFO] - [24-11-2025 16:51:00] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Started 
+[INFO] - [24-11-2025 16:51:02] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Finished 
+[INFO] - [24-11-2025 16:51:02] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_22 Started 
+[INFO] - [24-11-2025 16:51:02] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_22 Started 
+[INFO] - [24-11-2025 16:51:03] [main] [pages.LoginPage] - Typed text 'standard_user' into element: By.id: user-name
+[INFO] - [24-11-2025 16:51:03] [main] [pages.LoginPage] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [24-11-2025 16:51:03] [main] [pages.LoginPage] - Clicked on element: By.id: login-button
+[INFO] - [24-11-2025 16:51:03] [main] [pages.HomePage] - Clicked on element: By.cssSelector: #item_5_title_link > div
+[INFO] - [24-11-2025 16:51:03] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_22 Finished 
+[DEBUG] - [24-11-2025 16:51:03] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_22Success
+[INFO] - [24-11-2025 16:51:03] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Started 
+[INFO] - [24-11-2025 16:51:04] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Finished 
+[INFO] - [24-11-2025 16:51:04] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Started 
+[INFO] - [24-11-2025 16:51:06] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Finished 
+[INFO] - [24-11-2025 16:51:06] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_23 Started 
+[INFO] - [24-11-2025 16:51:06] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_23 Started 
+[INFO] - [24-11-2025 16:51:06] [main] [pages.LoginPage] - Typed text 'standard_user' into element: By.id: user-name
+[INFO] - [24-11-2025 16:51:06] [main] [pages.LoginPage] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [24-11-2025 16:51:06] [main] [pages.LoginPage] - Clicked on element: By.id: login-button
+[INFO] - [24-11-2025 16:51:07] [main] [pages.HomePage] - Clicked on element: By.cssSelector: [src="/static/media/red-onesie-1200x1500.2ec615b271ef4c3bc430.jpg"]
+[INFO] - [24-11-2025 16:51:07] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_23 Finished 
+[DEBUG] - [24-11-2025 16:51:07] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_23Success
+[INFO] - [24-11-2025 16:51:07] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Started 
+[INFO] - [24-11-2025 16:51:07] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Finished 
+[INFO] - [24-11-2025 16:51:07] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Started 
+[INFO] - [24-11-2025 16:51:10] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Finished 
+[INFO] - [24-11-2025 16:51:10] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_24 Started 
+[INFO] - [24-11-2025 16:51:10] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_24 Started 
+[INFO] - [24-11-2025 16:51:10] [main] [pages.LoginPage] - Typed text 'standard_user' into element: By.id: user-name
+[INFO] - [24-11-2025 16:51:10] [main] [pages.LoginPage] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [24-11-2025 16:51:11] [main] [pages.LoginPage] - Clicked on element: By.id: login-button
+[INFO] - [24-11-2025 16:51:11] [main] [pages.HomePage] - Clicked on element: By.cssSelector: #item_2_title_link > div
+[INFO] - [24-11-2025 16:51:11] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_24 Finished 
+[DEBUG] - [24-11-2025 16:51:11] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_24Success
+[INFO] - [24-11-2025 16:51:11] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Started 
+[INFO] - [24-11-2025 16:51:11] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Finished 
+[INFO] - [24-11-2025 16:51:11] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Started 
+[INFO] - [24-11-2025 16:51:13] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Finished 
+[INFO] - [24-11-2025 16:51:13] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_25 Started 
+[INFO] - [24-11-2025 16:51:13] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_25 Started 
+[INFO] - [24-11-2025 16:51:14] [main] [pages.LoginPage] - Typed text 'standard_user' into element: By.id: user-name
+[INFO] - [24-11-2025 16:51:14] [main] [pages.LoginPage] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [24-11-2025 16:51:14] [main] [pages.LoginPage] - Clicked on element: By.id: login-button
+[INFO] - [24-11-2025 16:51:15] [main] [pages.HomePage] - Clicked on element: By.cssSelector: [src="/static/media/red-tatt-1200x1500.30dadef477804e54fc7b.jpg"]   
+[INFO] - [24-11-2025 16:51:15] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_25 Finished 
+[DEBUG] - [24-11-2025 16:51:15] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_25Success
+[INFO] - [24-11-2025 16:51:15] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Started 
+[INFO] - [24-11-2025 16:51:15] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Finished 
+[INFO] - [24-11-2025 16:51:15] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Started 
+[INFO] - [24-11-2025 16:51:19] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Finished 
+[INFO] - [24-11-2025 16:51:19] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_26 Started 
+[INFO] - [24-11-2025 16:51:19] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_26 Started 
+[INFO] - [24-11-2025 16:51:19] [main] [pages.LoginPage] - Typed text 'standard_user' into element: By.id: user-name
+[INFO] - [24-11-2025 16:51:19] [main] [pages.LoginPage] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [24-11-2025 16:51:19] [main] [pages.LoginPage] - Clicked on element: By.id: login-button
+[INFO] - [24-11-2025 16:51:20] [main] [pages.HomePage] - Clicked on element: By.cssSelector: #item_3_title_link > div
+[INFO] - [24-11-2025 16:51:20] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_26 Finished 
+[DEBUG] - [24-11-2025 16:51:20] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_26Success
+[INFO] - [24-11-2025 16:51:20] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Started 
+[INFO] - [24-11-2025 16:51:20] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Finished 
+[INFO] - [24-11-2025 16:51:20] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Started 
+[INFO] - [24-11-2025 16:51:23] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Finished 
+[INFO] - [24-11-2025 16:51:23] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_27 Started 
+[INFO] - [24-11-2025 16:51:23] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_27 Started 
+[INFO] - [24-11-2025 16:51:23] [main] [pages.LoginPage] - Typed text 'standard_user' into element: By.id: user-name
+[INFO] - [24-11-2025 16:51:24] [main] [pages.LoginPage] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [24-11-2025 16:51:24] [main] [pages.LoginPage] - Clicked on element: By.id: login-button
+[INFO] - [24-11-2025 16:51:24] [main] [pages.HomePage] - Clicked on element: By.cssSelector: [id="react-burger-menu-btn"]
+[INFO] - [24-11-2025 16:51:25] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_27 Finished 
+[DEBUG] - [24-11-2025 16:51:25] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_27Success
+[INFO] - [24-11-2025 16:51:25] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Started 
+[INFO] - [24-11-2025 16:51:25] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Finished 
+[INFO] - [24-11-2025 16:51:25] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Started 
+[INFO] - [24-11-2025 16:51:28] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Finished 
+[INFO] - [24-11-2025 16:51:28] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_28 Started 
+[INFO] - [24-11-2025 16:51:28] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_28 Started 
+[INFO] - [24-11-2025 16:51:29] [main] [pages.LoginPage] - Typed text 'standard_user' into element: By.id: user-name
+[INFO] - [24-11-2025 16:51:29] [main] [pages.LoginPage] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [24-11-2025 16:51:29] [main] [pages.LoginPage] - Clicked on element: By.id: login-button
+[INFO] - [24-11-2025 16:51:29] [main] [pages.HomePage] - Clicked on element: By.cssSelector: [id="react-burger-menu-btn"]
+[INFO] - [24-11-2025 16:51:34] [main] [pages.HomePage] - Clicked on element: By.cssSelector: [data-test="about-sidebar-link"]
+[INFO] - [24-11-2025 16:51:34] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_28 Finished 
+[DEBUG] - [24-11-2025 16:51:34] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_28Success
+[INFO] - [24-11-2025 16:51:34] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Started 
+[INFO] - [24-11-2025 16:51:34] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Finished 
+[INFO] - [24-11-2025 16:51:34] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Started 
+[INFO] - [24-11-2025 16:51:37] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Finished 
+[INFO] - [24-11-2025 16:51:37] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_29 Started 
+[INFO] - [24-11-2025 16:51:37] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_29 Started 
+[INFO] - [24-11-2025 16:51:38] [main] [pages.LoginPage] - Typed text 'standard_user' into element: By.id: user-name
+[INFO] - [24-11-2025 16:51:38] [main] [pages.LoginPage] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [24-11-2025 16:51:38] [main] [pages.LoginPage] - Clicked on element: By.id: login-button
+[INFO] - [24-11-2025 16:51:38] [main] [pages.HomePage] - Clicked on element: By.cssSelector: [id="react-burger-menu-btn"]
+[INFO] - [24-11-2025 16:51:39] [main] [pages.HomePage] - Clicked on element: By.cssSelector: [id="logout_sidebar_link"]
+[INFO] - [24-11-2025 16:51:39] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_29 Finished 
+[DEBUG] - [24-11-2025 16:51:39] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_29Success
+[INFO] - [24-11-2025 16:51:39] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Started 
+[INFO] - [24-11-2025 16:51:39] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Finished 
+[INFO] - [24-11-2025 16:51:39] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Started 
+[INFO] - [24-11-2025 16:51:43] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Finished 
+[INFO] - [24-11-2025 16:51:43] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_30 Started 
+[INFO] - [24-11-2025 16:51:43] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_30 Started 
+[INFO] - [24-11-2025 16:51:43] [main] [pages.LoginPage] - Typed text 'standard_user' into element: By.id: user-name
+[INFO] - [24-11-2025 16:51:43] [main] [pages.LoginPage] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [24-11-2025 16:51:44] [main] [pages.LoginPage] - Clicked on element: By.id: login-button
+[INFO] - [24-11-2025 16:51:44] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_30 Finished 
+[DEBUG] - [24-11-2025 16:51:44] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_30Success
+[INFO] - [24-11-2025 16:51:44] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Started 
+[INFO] - [24-11-2025 16:51:44] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Finished 
+[INFO] - [24-11-2025 16:51:44] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Started 
+[INFO] - [24-11-2025 16:51:47] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Finished 
+[INFO] - [24-11-2025 16:51:47] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_31 Started 
+[INFO] - [24-11-2025 16:51:47] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_31 Started 
+[INFO] - [24-11-2025 16:51:47] [main] [pages.LoginPage] - Typed text 'standard_user' into element: By.id: user-name
+[INFO] - [24-11-2025 16:51:47] [main] [pages.LoginPage] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [24-11-2025 16:51:48] [main] [pages.LoginPage] - Clicked on element: By.id: login-button
+[INFO] - [24-11-2025 16:51:48] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_31 Finished 
+[DEBUG] - [24-11-2025 16:51:48] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_31Success
+[INFO] - [24-11-2025 16:51:48] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Started 
+[INFO] - [24-11-2025 16:51:48] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Finished 
+[INFO] - [24-11-2025 16:51:48] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Started 
+[INFO] - [24-11-2025 16:51:52] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Finished 
+[INFO] - [24-11-2025 16:51:52] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_32 Started 
+[INFO] - [24-11-2025 16:51:52] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_32 Started 
+[INFO] - [24-11-2025 16:51:52] [main] [pages.LoginPage] - Typed text 'standard_user' into element: By.id: user-name
+[INFO] - [24-11-2025 16:51:53] [main] [pages.LoginPage] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [24-11-2025 16:51:53] [main] [pages.LoginPage] - Clicked on element: By.id: login-button
+[INFO] - [24-11-2025 16:51:53] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_32 Finished 
+[DEBUG] - [24-11-2025 16:51:53] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_32Success
+[INFO] - [24-11-2025 16:51:53] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Started 
+[INFO] - [24-11-2025 16:51:53] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Finished 
+[INFO] - [24-11-2025 16:51:53] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Started 
+[INFO] - [24-11-2025 16:51:56] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Finished 
+[INFO] - [24-11-2025 16:51:56] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_33 Started 
+[INFO] - [24-11-2025 16:51:56] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_33 Started 
+[INFO] - [24-11-2025 16:51:57] [main] [pages.LoginPage] - Typed text 'standard_user' into element: By.id: user-name
+[INFO] - [24-11-2025 16:51:57] [main] [pages.LoginPage] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [24-11-2025 16:51:57] [main] [pages.LoginPage] - Clicked on element: By.id: login-button
+[INFO] - [24-11-2025 16:51:57] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_33 Finished 
+[DEBUG] - [24-11-2025 16:51:57] [main] [org.testng.internal.invokers.TestInvoker] - HM_TC_33Success
+[INFO] - [24-11-2025 16:51:57] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Started 
+[INFO] - [24-11-2025 16:51:58] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Finished 
+[INFO] - [24-11-2025 16:51:58] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Started 
+[INFO] - [24-11-2025 16:52:00] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Finished 
+[INFO] - [24-11-2025 16:52:00] [main] [org.testng.internal.invokers.TestInvoker] - LG_TC_01 Started 
+[INFO] - [24-11-2025 16:52:00] [main] [org.testng.internal.invokers.TestInvoker] - LG_TC_01 Started 
+[INFO] - [24-11-2025 16:52:00] [main] [pages.LoginPage] - Typed text 'standard_user' into element: By.id: user-name
+[INFO] - [24-11-2025 16:52:00] [main] [pages.LoginPage] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [24-11-2025 16:52:00] [main] [pages.LoginPage] - Clicked on element: By.id: login-button
+[INFO] - [24-11-2025 16:52:00] [main] [org.testng.internal.invokers.TestInvoker] - LG_TC_01 Finished 
+[DEBUG] - [24-11-2025 16:52:00] [main] [org.testng.internal.invokers.TestInvoker] - LG_TC_01Success
+[INFO] - [24-11-2025 16:52:00] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Started 
+[INFO] - [24-11-2025 16:52:01] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Finished 
+[INFO] - [24-11-2025 16:52:01] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Started 
+[INFO] - [24-11-2025 16:52:05] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Finished 
+[INFO] - [24-11-2025 16:52:05] [main] [org.testng.internal.invokers.TestInvoker] - LG_TC_02 Started 
+[INFO] - [24-11-2025 16:52:05] [main] [org.testng.internal.invokers.TestInvoker] - LG_TC_02 Started 
+[INFO] - [24-11-2025 16:52:05] [main] [pages.LoginPage] - Typed text 'fatma' into element: By.id: user-name
+[INFO] - [24-11-2025 16:52:05] [main] [pages.LoginPage] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [24-11-2025 16:52:06] [main] [pages.LoginPage] - Clicked on element: By.id: login-button
+[INFO] - [24-11-2025 16:52:06] [main] [pages.LoginPage] - Fetched text: 'Epic sadface: Username and password do not match any user in this service' from element: By.xpath: //h3[@data-test='error']
+[INFO] - [24-11-2025 16:52:06] [main] [org.testng.internal.invokers.TestInvoker] - LG_TC_02 Finished 
+[DEBUG] - [24-11-2025 16:52:06] [main] [org.testng.internal.invokers.TestInvoker] - LG_TC_02Success
+[INFO] - [24-11-2025 16:52:06] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Started 
+[INFO] - [24-11-2025 16:52:06] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Finished 
+[INFO] - [24-11-2025 16:52:06] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Started 
+[INFO] - [24-11-2025 16:52:09] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Finished 
+[INFO] - [24-11-2025 16:52:09] [main] [org.testng.internal.invokers.TestInvoker] - LG_TC_03 Started 
+[INFO] - [24-11-2025 16:52:09] [main] [org.testng.internal.invokers.TestInvoker] - LG_TC_03 Started 
+[INFO] - [24-11-2025 16:52:09] [main] [pages.LoginPage] - Typed text 'standard_user' into element: By.id: user-name
+[INFO] - [24-11-2025 16:52:09] [main] [pages.LoginPage] - Typed text 'admin' into element: By.id: password
+[INFO] - [24-11-2025 16:52:10] [main] [pages.LoginPage] - Clicked on element: By.id: login-button
+[INFO] - [24-11-2025 16:52:10] [main] [pages.LoginPage] - Fetched text: 'Epic sadface: Username and password do not match any user in this service' from element: By.xpath: //h3[@data-test='error']
+[INFO] - [24-11-2025 16:52:10] [main] [org.testng.internal.invokers.TestInvoker] - LG_TC_03 Finished 
+[DEBUG] - [24-11-2025 16:52:10] [main] [org.testng.internal.invokers.TestInvoker] - LG_TC_03Success
+[INFO] - [24-11-2025 16:52:10] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Started 
+[INFO] - [24-11-2025 16:52:10] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Finished 
+[INFO] - [24-11-2025 16:52:10] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Started 
+[INFO] - [24-11-2025 16:52:13] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Finished 
+[INFO] - [24-11-2025 16:52:13] [main] [org.testng.internal.invokers.TestInvoker] - LG_TC_04 Started 
+[INFO] - [24-11-2025 16:52:13] [main] [org.testng.internal.invokers.TestInvoker] - LG_TC_04 Started 
+[INFO] - [24-11-2025 16:52:13] [main] [pages.LoginPage] - Typed text 'standard _user' into element: By.id: user-name
+[INFO] - [24-11-2025 16:52:13] [main] [pages.LoginPage] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [24-11-2025 16:52:13] [main] [pages.LoginPage] - Clicked on element: By.id: login-button
+[INFO] - [24-11-2025 16:52:14] [main] [pages.LoginPage] - Fetched text: 'Epic sadface: Username and password do not match any user in this service' from element: By.xpath: //h3[@data-test='error']
+[INFO] - [24-11-2025 16:52:14] [main] [org.testng.internal.invokers.TestInvoker] - LG_TC_04 Finished 
+[DEBUG] - [24-11-2025 16:52:14] [main] [org.testng.internal.invokers.TestInvoker] - LG_TC_04Success
+[INFO] - [24-11-2025 16:52:14] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Started 
+[INFO] - [24-11-2025 16:52:14] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Finished 
+[INFO] - [24-11-2025 16:52:14] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Started 
+[INFO] - [24-11-2025 16:52:19] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Finished 
+[INFO] - [24-11-2025 16:52:19] [main] [org.testng.internal.invokers.TestInvoker] - LG_TC_05 Started 
+[INFO] - [24-11-2025 16:52:19] [main] [org.testng.internal.invokers.TestInvoker] - LG_TC_05 Started 
+[INFO] - [24-11-2025 16:52:19] [main] [pages.LoginPage] - Typed text 'standard_user' into element: By.id: user-name
+[INFO] - [24-11-2025 16:52:19] [main] [pages.LoginPage] - Typed text 'secret _sauce' into element: By.id: password
+[INFO] - [24-11-2025 16:52:19] [main] [pages.LoginPage] - Clicked on element: By.id: login-button
+[INFO] - [24-11-2025 16:52:20] [main] [pages.LoginPage] - Fetched text: 'Epic sadface: Username and password do not match any user in this service' from element: By.xpath: //h3[@data-test='error']
+[INFO] - [24-11-2025 16:52:20] [main] [org.testng.internal.invokers.TestInvoker] - LG_TC_05 Finished 
+[DEBUG] - [24-11-2025 16:52:20] [main] [org.testng.internal.invokers.TestInvoker] - LG_TC_05Success
+[INFO] - [24-11-2025 16:52:20] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Started 
+[INFO] - [24-11-2025 16:52:20] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Finished 
+[INFO] - [24-11-2025 16:52:20] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Started 
+[INFO] - [24-11-2025 16:52:24] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Finished 
+[INFO] - [24-11-2025 16:52:24] [main] [org.testng.internal.invokers.TestInvoker] - LG_TC_06 Started 
+[INFO] - [24-11-2025 16:52:24] [main] [org.testng.internal.invokers.TestInvoker] - LG_TC_06 Started 
+[INFO] - [24-11-2025 16:52:25] [main] [pages.LoginPage] - Typed text '' into element: By.id: user-name
+[INFO] - [24-11-2025 16:52:25] [main] [pages.LoginPage] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [24-11-2025 16:52:25] [main] [pages.LoginPage] - Clicked on element: By.id: login-button
+[INFO] - [24-11-2025 16:52:25] [main] [pages.LoginPage] - Fetched text: 'Epic sadface: Username is required' from element: By.cssSelector: h3[data-test='error']
+[INFO] - [24-11-2025 16:52:25] [main] [org.testng.internal.invokers.TestInvoker] - LG_TC_06 Finished 
+[DEBUG] - [24-11-2025 16:52:25] [main] [org.testng.internal.invokers.TestInvoker] - LG_TC_06Success
+[INFO] - [24-11-2025 16:52:25] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Started 
+[INFO] - [24-11-2025 16:52:26] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Finished 
+[INFO] - [24-11-2025 16:52:26] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Started 
+[INFO] - [24-11-2025 16:52:39] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Finished 
+[INFO] - [24-11-2025 16:52:39] [main] [org.testng.internal.invokers.TestInvoker] - LG_TC_07 Started 
+[INFO] - [24-11-2025 16:52:39] [main] [org.testng.internal.invokers.TestInvoker] - LG_TC_07 Started 
+[INFO] - [24-11-2025 16:52:39] [main] [pages.LoginPage] - Typed text 'standard_user' into element: By.id: user-name
+[INFO] - [24-11-2025 16:52:40] [main] [pages.LoginPage] - Typed text '' into element: By.id: password
+[INFO] - [24-11-2025 16:52:40] [main] [pages.LoginPage] - Clicked on element: By.id: login-button
+[INFO] - [24-11-2025 16:52:40] [main] [pages.LoginPage] - Fetched text: 'Epic sadface: Password is required' from element: By.cssSelector: h3[data-test='error']
+[INFO] - [24-11-2025 16:52:40] [main] [org.testng.internal.invokers.TestInvoker] - LG_TC_07 Finished 
+[DEBUG] - [24-11-2025 16:52:40] [main] [org.testng.internal.invokers.TestInvoker] - LG_TC_07Success
+[INFO] - [24-11-2025 16:52:40] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Started 
+[INFO] - [24-11-2025 16:52:40] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Finished 
+[INFO] - [24-11-2025 16:52:40] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Started 
+[INFO] - [24-11-2025 16:52:48] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Finished 
+[INFO] - [24-11-2025 16:52:48] [main] [org.testng.internal.invokers.TestInvoker] - LG_TC_08 Started 
+[INFO] - [24-11-2025 16:52:48] [main] [org.testng.internal.invokers.TestInvoker] - LG_TC_08 Started 
+[INFO] - [24-11-2025 16:52:48] [main] [pages.LoginPage] - Typed text 'STANDARD_USER' into element: By.id: user-name
+[INFO] - [24-11-2025 16:52:48] [main] [pages.LoginPage] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [24-11-2025 16:52:48] [main] [pages.LoginPage] - Clicked on element: By.id: login-button
+[INFO] - [24-11-2025 16:52:49] [main] [pages.LoginPage] - Fetched text: 'Epic sadface: Username and password do not match any user in this service' from element: By.xpath: //h3[@data-test='error']
+[INFO] - [24-11-2025 16:52:49] [main] [org.testng.internal.invokers.TestInvoker] - LG_TC_08 Finished 
+[DEBUG] - [24-11-2025 16:52:49] [main] [org.testng.internal.invokers.TestInvoker] - LG_TC_08Success
+[INFO] - [24-11-2025 16:52:49] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Started 
+[INFO] - [24-11-2025 16:52:49] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Finished 
+[INFO] - [24-11-2025 16:52:49] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Started 
+[INFO] - [24-11-2025 16:52:53] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Finished 
+[INFO] - [24-11-2025 16:52:53] [main] [org.testng.internal.invokers.TestInvoker] - LG_TC_09 Started 
+[INFO] - [24-11-2025 16:52:53] [main] [org.testng.internal.invokers.TestInvoker] - LG_TC_09 Started 
+[INFO] - [24-11-2025 16:52:53] [main] [pages.LoginPage] - Typed text 'locked_out_user' into element: By.id: user-name
+[INFO] - [24-11-2025 16:52:54] [main] [pages.LoginPage] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [24-11-2025 16:52:54] [main] [pages.LoginPage] - Clicked on element: By.id: login-button
+[INFO] - [24-11-2025 16:52:54] [main] [pages.LoginPage] - Fetched text: 'Epic sadface: Sorry, this user has been locked out.' from element: By.cssSelector: [data-test='error']
+[INFO] - [24-11-2025 16:52:54] [main] [org.testng.internal.invokers.TestInvoker] - LG_TC_09 Finished 
+[DEBUG] - [24-11-2025 16:52:54] [main] [org.testng.internal.invokers.TestInvoker] - LG_TC_09Success
+[INFO] - [24-11-2025 16:52:54] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Started 
+[INFO] - [24-11-2025 16:52:54] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Finished 
+[INFO] - [24-11-2025 16:52:54] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Started 
+[INFO] - [24-11-2025 16:52:58] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Finished 
+[INFO] - [24-11-2025 16:52:58] [main] [org.testng.internal.invokers.TestInvoker] - LG_TC_10 Started 
+[INFO] - [24-11-2025 16:52:58] [main] [org.testng.internal.invokers.TestInvoker] - LG_TC_10 Started 
+[INFO] - [24-11-2025 16:52:59] [main] [pages.LoginPage] - Typed text 'problem_user' into element: By.id: user-name
+[INFO] - [24-11-2025 16:52:59] [main] [pages.LoginPage] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [24-11-2025 16:52:59] [main] [pages.LoginPage] - Clicked on element: By.id: login-button
+[INFO] - [24-11-2025 16:52:59] [main] [org.testng.internal.invokers.TestInvoker] - LG_TC_10 Finished 
+[DEBUG] - [24-11-2025 16:52:59] [main] [org.testng.internal.invokers.TestInvoker] - LG_TC_10Success
+[INFO] - [24-11-2025 16:52:59] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Started 
+[INFO] - [24-11-2025 16:53:00] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Finished 
+[INFO] - [24-11-2025 16:53:00] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Started 
+[INFO] - [24-11-2025 16:53:03] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Finished 
+[INFO] - [24-11-2025 16:53:03] [main] [org.testng.internal.invokers.TestInvoker] - LG_TC_11 Started 
+[INFO] - [24-11-2025 16:53:03] [main] [org.testng.internal.invokers.TestInvoker] - LG_TC_11 Started 
+[INFO] - [24-11-2025 16:53:03] [main] [pages.LoginPage] - Typed text 'performance_glitch_user' into element: By.id: user-name
+[INFO] - [24-11-2025 16:53:03] [main] [pages.LoginPage] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [24-11-2025 16:53:08] [main] [pages.LoginPage] - Clicked on element: By.id: login-button
+[INFO] - [24-11-2025 16:53:08] [main] [org.testng.internal.invokers.TestInvoker] - LG_TC_11 Finished 
+[DEBUG] - [24-11-2025 16:53:08] [main] [org.testng.internal.invokers.TestInvoker] - LG_TC_11Success
+[INFO] - [24-11-2025 16:53:08] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Started 
+[INFO] - [24-11-2025 16:53:09] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Finished 
+[INFO] - [24-11-2025 16:53:09] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Started 
+[INFO] - [24-11-2025 16:53:18] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Finished 
+[INFO] - [24-11-2025 16:53:18] [main] [org.testng.internal.invokers.TestInvoker] - LG_TC_12 Started 
+[INFO] - [24-11-2025 16:53:18] [main] [org.testng.internal.invokers.TestInvoker] - LG_TC_12 Started 
+[INFO] - [24-11-2025 16:53:19] [main] [pages.LoginPage] - Typed text 'error_user' into element: By.id: user-name
+[INFO] - [24-11-2025 16:53:19] [main] [pages.LoginPage] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [24-11-2025 16:53:19] [main] [pages.LoginPage] - Clicked on element: By.id: login-button
+[INFO] - [24-11-2025 16:53:19] [main] [org.testng.internal.invokers.TestInvoker] - LG_TC_12 Finished 
+[DEBUG] - [24-11-2025 16:53:19] [main] [org.testng.internal.invokers.TestInvoker] - LG_TC_12Success
+[INFO] - [24-11-2025 16:53:19] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Started 
+[INFO] - [24-11-2025 16:53:19] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Finished 
+[INFO] - [24-11-2025 16:53:19] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Started 
+[INFO] - [24-11-2025 16:53:24] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Finished 
+[INFO] - [24-11-2025 16:53:24] [main] [org.testng.internal.invokers.TestInvoker] - LG_TC_13 Started 
+[INFO] - [24-11-2025 16:53:24] [main] [org.testng.internal.invokers.TestInvoker] - LG_TC_13 Started 
+[INFO] - [24-11-2025 16:53:24] [main] [pages.LoginPage] - Typed text 'visual_user' into element: By.id: user-name
+[INFO] - [24-11-2025 16:53:25] [main] [pages.LoginPage] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [24-11-2025 16:53:25] [main] [pages.LoginPage] - Clicked on element: By.id: login-button
+[INFO] - [24-11-2025 16:53:25] [main] [org.testng.internal.invokers.TestInvoker] - LG_TC_13 Finished 
+[DEBUG] - [24-11-2025 16:53:25] [main] [org.testng.internal.invokers.TestInvoker] - LG_TC_13Success
+[INFO] - [24-11-2025 16:53:25] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Started 
+[INFO] - [24-11-2025 16:53:25] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Finished 
+[INFO] - [24-11-2025 16:53:25] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Started 
+[INFO] - [24-11-2025 16:53:28] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Finished 
+[INFO] - [24-11-2025 16:53:28] [main] [org.testng.internal.invokers.TestInvoker] - LG_TC_14 Started 
+[INFO] - [24-11-2025 16:53:28] [main] [org.testng.internal.invokers.TestInvoker] - LG_TC_14 Started 
+[INFO] - [24-11-2025 16:53:29] [main] [pages.LoginPage] - Typed text '' into element: By.id: user-name
+[INFO] - [24-11-2025 16:53:29] [main] [pages.LoginPage] - Typed text '' into element: By.id: password
+[INFO] - [24-11-2025 16:53:29] [main] [pages.LoginPage] - Clicked on element: By.id: login-button
+[INFO] - [24-11-2025 16:53:29] [main] [pages.LoginPage] - Fetched text: 'Epic sadface: Username is required' from element: By.cssSelector: h3[data-test='error']
+[INFO] - [24-11-2025 16:53:29] [main] [org.testng.internal.invokers.TestInvoker] - LG_TC_14 Finished 
+[DEBUG] - [24-11-2025 16:53:30] [main] [org.testng.internal.invokers.TestInvoker] - LG_TC_14Success
+[INFO] - [24-11-2025 16:53:30] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Started 
+[INFO] - [24-11-2025 16:53:30] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Finished 
+[INFO] - [24-11-2025 16:53:30] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Started 
+[INFO] - [24-11-2025 16:53:33] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Finished 
+[INFO] - [24-11-2025 16:53:33] [main] [org.testng.internal.invokers.TestInvoker] - LG_TC_15 Started 
+[INFO] - [24-11-2025 16:53:33] [main] [org.testng.internal.invokers.TestInvoker] - LG_TC_15 Started 
+[INFO] - [24-11-2025 16:53:33] [main] [org.testng.internal.invokers.TestInvoker] - LG_TC_15 Finished 
+[DEBUG] - [24-11-2025 16:53:33] [main] [org.testng.internal.invokers.TestInvoker] - LG_TC_15Success
+[INFO] - [24-11-2025 16:53:33] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Started 
+[INFO] - [24-11-2025 16:53:33] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Finished 
+[INFO] - [24-11-2025 16:53:33] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Started 
+[INFO] - [24-11-2025 16:53:35] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Finished 
+[INFO] - [24-11-2025 16:53:35] [main] [org.testng.internal.invokers.TestInvoker] - OV_TC_01 Started 
+[INFO] - [24-11-2025 16:53:35] [main] [org.testng.internal.invokers.TestInvoker] - OV_TC_01 Started 
+[INFO] - [24-11-2025 16:53:36] [main] [pages.LoginPage] - Typed text 'standard_user' into element: By.id: user-name
+[INFO] - [24-11-2025 16:53:36] [main] [pages.LoginPage] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [24-11-2025 16:53:36] [main] [pages.LoginPage] - Clicked on element: By.id: login-button
+[INFO] - [24-11-2025 16:53:37] [main] [pages.HomePage] - Clicked on element: By.id: add-to-cart-sauce-labs-backpack
+[INFO] - [24-11-2025 16:53:37] [main] [pages.HomePage] - Clicked on element: By.id: add-to-cart-sauce-labs-bike-light
+[INFO] - [24-11-2025 16:53:37] [main] [pages.HomePage] - Clicked on element: By.cssSelector: #shopping_cart_container > a
+[INFO] - [24-11-2025 16:53:37] [main] [pages.CartPage] - Clicked on element: By.cssSelector: [name="checkout"]
+[INFO] - [24-11-2025 16:53:37] [main] [pages.CheckOutPage] - Typed text 'mohamed' into element: By.cssSelector: [name="firstName"]
+[INFO] - [24-11-2025 16:53:38] [main] [pages.CheckOutPage] - Typed text 'ahmed' into element: By.cssSelector: [name="lastName"]
+[INFO] - [24-11-2025 16:53:38] [main] [pages.CheckOutPage] - Typed text '12345' into element: By.cssSelector: [name="postalCode"]
+[INFO] - [24-11-2025 16:53:38] [main] [pages.CheckOutPage] - Clicked on element: By.cssSelector: [name="continue"]
+[INFO] - [24-11-2025 16:53:38] [main] [org.testng.internal.invokers.TestInvoker] - OV_TC_01 Finished 
+[DEBUG] - [24-11-2025 16:53:38] [main] [org.testng.internal.invokers.TestInvoker] - OV_TC_01Success
+[INFO] - [24-11-2025 16:53:38] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Started 
+[INFO] - [24-11-2025 16:53:38] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Finished 
+[INFO] - [24-11-2025 16:53:38] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Started 
+[INFO] - [24-11-2025 16:53:41] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Finished 
+[INFO] - [24-11-2025 16:53:41] [main] [org.testng.internal.invokers.TestInvoker] - OV_TC_02 Started 
+[INFO] - [24-11-2025 16:53:41] [main] [org.testng.internal.invokers.TestInvoker] - OV_TC_02 Started 
+[INFO] - [24-11-2025 16:53:42] [main] [pages.LoginPage] - Typed text 'standard_user' into element: By.id: user-name
+[INFO] - [24-11-2025 16:53:42] [main] [pages.LoginPage] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [24-11-2025 16:53:42] [main] [pages.LoginPage] - Clicked on element: By.id: login-button
+[INFO] - [24-11-2025 16:53:42] [main] [pages.HomePage] - Clicked on element: By.id: add-to-cart-sauce-labs-backpack
+[INFO] - [24-11-2025 16:53:42] [main] [pages.HomePage] - Clicked on element: By.id: add-to-cart-sauce-labs-bike-light
+[INFO] - [24-11-2025 16:53:43] [main] [pages.HomePage] - Clicked on element: By.cssSelector: #shopping_cart_container > a
+[INFO] - [24-11-2025 16:53:43] [main] [pages.CartPage] - Clicked on element: By.cssSelector: [name="checkout"]
+[INFO] - [24-11-2025 16:53:43] [main] [pages.CheckOutPage] - Typed text 'mohamed' into element: By.cssSelector: [name="firstName"]
+[INFO] - [24-11-2025 16:53:43] [main] [pages.CheckOutPage] - Typed text 'ahmed' into element: By.cssSelector: [name="lastName"]
+[INFO] - [24-11-2025 16:53:44] [main] [pages.CheckOutPage] - Typed text '12345' into element: By.cssSelector: [name="postalCode"]
+[INFO] - [24-11-2025 16:53:44] [main] [pages.CheckOutPage] - Clicked on element: By.cssSelector: [name="continue"]
+[INFO] - [24-11-2025 16:53:44] [main] [pages.OverViewPage] - Clicked on element: By.cssSelector: [name="finish"]
+[INFO] - [24-11-2025 16:53:44] [main] [org.testng.internal.invokers.TestInvoker] - OV_TC_02 Finished 
+[DEBUG] - [24-11-2025 16:53:44] [main] [org.testng.internal.invokers.TestInvoker] - OV_TC_02Success
+[INFO] - [24-11-2025 16:53:44] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Started 
+[INFO] - [24-11-2025 16:53:44] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Finished 
+[INFO] - [24-11-2025 16:53:44] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Started 
+[INFO] - [24-11-2025 16:53:49] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Finished 
+[INFO] - [24-11-2025 16:53:49] [main] [org.testng.internal.invokers.TestInvoker] - OV_TC_03 Started 
+[INFO] - [24-11-2025 16:53:49] [main] [org.testng.internal.invokers.TestInvoker] - OV_TC_03 Started 
+[INFO] - [24-11-2025 16:53:49] [main] [pages.LoginPage] - Typed text 'standard_user' into element: By.id: user-name
+[INFO] - [24-11-2025 16:53:49] [main] [pages.LoginPage] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [24-11-2025 16:53:49] [main] [pages.LoginPage] - Clicked on element: By.id: login-button
+[INFO] - [24-11-2025 16:53:50] [main] [pages.HomePage] - Clicked on element: By.id: add-to-cart-sauce-labs-backpack
+[INFO] - [24-11-2025 16:53:50] [main] [pages.HomePage] - Clicked on element: By.id: add-to-cart-sauce-labs-bike-light
+[INFO] - [24-11-2025 16:53:50] [main] [pages.HomePage] - Clicked on element: By.cssSelector: #shopping_cart_container > a
+[INFO] - [24-11-2025 16:53:50] [main] [pages.CartPage] - Clicked on element: By.cssSelector: [name="checkout"]
+[INFO] - [24-11-2025 16:53:50] [main] [pages.CheckOutPage] - Typed text 'mohamed' into element: By.cssSelector: [name="firstName"]
+[INFO] - [24-11-2025 16:53:51] [main] [pages.CheckOutPage] - Typed text 'ahmed' into element: By.cssSelector: [name="lastName"]
+[INFO] - [24-11-2025 16:53:51] [main] [pages.CheckOutPage] - Typed text '12345' into element: By.cssSelector: [name="postalCode"]
+[INFO] - [24-11-2025 16:53:51] [main] [pages.CheckOutPage] - Clicked on element: By.cssSelector: [name="continue"]
+[INFO] - [24-11-2025 16:53:51] [main] [pages.OverViewPage] - Clicked on element: By.cssSelector: [data-test="cancel"]
+[INFO] - [24-11-2025 16:53:51] [main] [org.testng.internal.invokers.TestInvoker] - OV_TC_03 Finished 
+[DEBUG] - [24-11-2025 16:53:51] [main] [org.testng.internal.invokers.TestInvoker] - OV_TC_03Success
+[INFO] - [24-11-2025 16:53:51] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Started 
+[INFO] - [24-11-2025 16:53:51] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Finished 
+[INFO] - [24-11-2025 16:53:51] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Started 
+[INFO] - [24-11-2025 16:53:55] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Finished 
+[INFO] - [24-11-2025 16:53:55] [main] [org.testng.internal.invokers.TestInvoker] - OV_TC_04 Started 
+[INFO] - [24-11-2025 16:53:55] [main] [org.testng.internal.invokers.TestInvoker] - OV_TC_04 Started 
+[INFO] - [24-11-2025 16:53:55] [main] [pages.LoginPage] - Typed text 'standard_user' into element: By.id: user-name
+[INFO] - [24-11-2025 16:53:55] [main] [pages.LoginPage] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [24-11-2025 16:53:55] [main] [pages.LoginPage] - Clicked on element: By.id: login-button
+[INFO] - [24-11-2025 16:53:56] [main] [pages.HomePage] - Clicked on element: By.id: add-to-cart-sauce-labs-backpack
+[INFO] - [24-11-2025 16:53:56] [main] [pages.HomePage] - Clicked on element: By.id: add-to-cart-sauce-labs-bike-light
+[INFO] - [24-11-2025 16:53:56] [main] [pages.HomePage] - Clicked on element: By.cssSelector: #shopping_cart_container > a
+[INFO] - [24-11-2025 16:53:56] [main] [pages.CartPage] - Clicked on element: By.cssSelector: [name="checkout"]
+[INFO] - [24-11-2025 16:53:56] [main] [pages.CheckOutPage] - Typed text 'mohamed' into element: By.cssSelector: [name="firstName"]
+[INFO] - [24-11-2025 16:53:57] [main] [pages.CheckOutPage] - Typed text 'ahmed' into element: By.cssSelector: [name="lastName"]
+[INFO] - [24-11-2025 16:53:57] [main] [pages.CheckOutPage] - Typed text '12345' into element: By.cssSelector: [name="postalCode"]
+[INFO] - [24-11-2025 16:53:57] [main] [pages.CheckOutPage] - Clicked on element: By.cssSelector: [name="continue"]
+[INFO] - [24-11-2025 16:53:57] [main] [org.testng.internal.invokers.TestInvoker] - OV_TC_04 Finished 
+[DEBUG] - [24-11-2025 16:53:57] [main] [org.testng.internal.invokers.TestInvoker] - OV_TC_04Success
+[INFO] - [24-11-2025 16:53:57] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Started 
+[INFO] - [24-11-2025 16:53:57] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Finished 
+[INFO] - [24-11-2025 16:53:57] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Started 
+[INFO] - [24-11-2025 16:54:00] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Finished 
+[INFO] - [24-11-2025 16:54:00] [main] [org.testng.internal.invokers.TestInvoker] - OV_TC_05 Started 
+[INFO] - [24-11-2025 16:54:00] [main] [org.testng.internal.invokers.TestInvoker] - OV_TC_05 Started 
+[INFO] - [24-11-2025 16:54:00] [main] [pages.LoginPage] - Typed text 'standard_user' into element: By.id: user-name
+[INFO] - [24-11-2025 16:54:00] [main] [pages.LoginPage] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [24-11-2025 16:54:01] [main] [pages.LoginPage] - Clicked on element: By.id: login-button
+[INFO] - [24-11-2025 16:54:01] [main] [pages.HomePage] - Clicked on element: By.id: add-to-cart-sauce-labs-backpack
+[INFO] - [24-11-2025 16:54:01] [main] [pages.HomePage] - Clicked on element: By.id: add-to-cart-sauce-labs-bike-light
+[INFO] - [24-11-2025 16:54:01] [main] [pages.HomePage] - Clicked on element: By.cssSelector: #shopping_cart_container > a
+[INFO] - [24-11-2025 16:54:02] [main] [pages.CartPage] - Clicked on element: By.cssSelector: [name="checkout"]
+[INFO] - [24-11-2025 16:54:02] [main] [pages.CheckOutPage] - Typed text 'mohamed' into element: By.cssSelector: [name="firstName"]
+[INFO] - [24-11-2025 16:54:02] [main] [pages.CheckOutPage] - Typed text 'ahmed' into element: By.cssSelector: [name="lastName"]
+[INFO] - [24-11-2025 16:54:02] [main] [pages.CheckOutPage] - Typed text '12345' into element: By.cssSelector: [name="postalCode"]
+[INFO] - [24-11-2025 16:54:02] [main] [pages.CheckOutPage] - Clicked on element: By.cssSelector: [name="continue"]
+[INFO] - [24-11-2025 16:54:02] [main] [org.testng.internal.invokers.TestInvoker] - OV_TC_05 Finished 
+[DEBUG] - [24-11-2025 16:54:02] [main] [org.testng.internal.invokers.TestInvoker] - OV_TC_05Success
+[INFO] - [24-11-2025 16:54:02] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Started 
+[INFO] - [24-11-2025 16:54:03] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Finished 
+[INFO] - [24-11-2025 16:54:03] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Started 
+[INFO] - [24-11-2025 16:54:06] [main] [org.testng.internal.invokers.ConfigInvoker] - setup Finished 
+[INFO] - [24-11-2025 16:54:06] [main] [org.testng.internal.invokers.TestInvoker] - OV_TC_06 Started 
+[INFO] - [24-11-2025 16:54:06] [main] [org.testng.internal.invokers.TestInvoker] - OV_TC_06 Started 
+[INFO] - [24-11-2025 16:54:07] [main] [pages.LoginPage] - Typed text 'standard_user' into element: By.id: user-name
+[INFO] - [24-11-2025 16:54:07] [main] [pages.LoginPage] - Typed text 'secret_sauce' into element: By.id: password
+[INFO] - [24-11-2025 16:54:07] [main] [pages.LoginPage] - Clicked on element: By.id: login-button
+[INFO] - [24-11-2025 16:54:07] [main] [pages.HomePage] - Clicked on element: By.id: add-to-cart-sauce-labs-backpack
+[INFO] - [24-11-2025 16:54:08] [main] [pages.HomePage] - Clicked on element: By.id: add-to-cart-sauce-labs-bike-light
+[INFO] - [24-11-2025 16:54:08] [main] [pages.HomePage] - Clicked on element: By.cssSelector: #shopping_cart_container > a
+[INFO] - [24-11-2025 16:54:08] [main] [pages.CartPage] - Clicked on element: By.cssSelector: [name="checkout"]
+[INFO] - [24-11-2025 16:54:08] [main] [pages.CheckOutPage] - Typed text 'mohamed' into element: By.cssSelector: [name="firstName"]
+[INFO] - [24-11-2025 16:54:08] [main] [pages.CheckOutPage] - Typed text 'ahmed' into element: By.cssSelector: [name="lastName"]
+[INFO] - [24-11-2025 16:54:09] [main] [pages.CheckOutPage] - Typed text '12345' into element: By.cssSelector: [name="postalCode"]
+[INFO] - [24-11-2025 16:54:09] [main] [pages.CheckOutPage] - Clicked on element: By.cssSelector: [name="continue"]
+[INFO] - [24-11-2025 16:54:09] [main] [org.testng.internal.invokers.TestInvoker] - OV_TC_06 Finished 
+[DEBUG] - [24-11-2025 16:54:09] [main] [org.testng.internal.invokers.TestInvoker] - OV_TC_06Success
+[INFO] - [24-11-2025 16:54:09] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Started 
+[INFO] - [24-11-2025 16:54:09] [main] [org.testng.internal.invokers.ConfigInvoker] - tearDown Finished 
+[INFO] - [24-11-2025 16:54:10] [main] [org.apache.maven.surefire.testng.TestNGExecutor] -  Execution Finished
