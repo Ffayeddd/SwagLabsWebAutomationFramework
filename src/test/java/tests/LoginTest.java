@@ -198,7 +198,7 @@ public class LoginTest {
     //before and after configuration
     @BeforeMethod
     public void setup() {
-        driver = GuiDriver.initDriver();         // create driver once
+        driver = GuiDriver.initDriver();
         driver.get(getProperty("baseUrl"));
     }
 

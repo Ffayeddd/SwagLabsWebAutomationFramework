@@ -69,9 +69,7 @@ public class LoginPage {
     public LoginPage verifyPasswordFieldMasked() {
         WebElement passwordField = driver.findElement(password);
         String fieldType = passwordField.getAttribute("type");
-        if(!"password".equals(fieldType)) {
-            throw new AssertionError("Password field is not masked! Actual type: " + fieldType);
-        }
+        softAssert.assertEquals(fieldType, "password");
         return this;
     }
 
