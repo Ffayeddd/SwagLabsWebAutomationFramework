@@ -37,7 +37,7 @@ public class CartPageTest {
 
 
     @Test
-    @Description("verify that user cannot checkout when cart is empty")
+    @Description("Verify that the user cannot proceed to checkout when the cart is empty")
     @Tag("invalid scenario")
     @Severity(SeverityLevel.CRITICAL)
     public void CP_TC_01() {
@@ -52,7 +52,7 @@ public class CartPageTest {
 
     }
     @Test
-    @Description("verify that user can remove a Backbag product and checkout correctly")
+    @Description("Verify that user can remove a Backbag product and proceed to checkout correctly")
     @Tag("valid scenario")
     @Severity(SeverityLevel.CRITICAL)
     public void CP_TC_02() {
@@ -84,7 +84,7 @@ public class CartPageTest {
 
     @Test
     @Tag("valid scenario")
-    @Description("Verify that clicking Continue Shopping returns user to Home Page")
+    @Description("Verify that the user can proceed to checkout from the cart page")
     public void CP_TC_04() {
         new LoginPage(driver)
                 .login(getProperty("validUsername"), getProperty("validPassword"))
@@ -114,7 +114,7 @@ public class CartPageTest {
 
 
     @Test
-    @Description("Verify cart badge updates correctly when adding products")
+    @Description("Verify that the cart badge updates correctly when a product is added")
     @Tag("valid scenario")
     public void CP_TC_06() {
         new LoginPage(driver)
@@ -126,7 +126,7 @@ public class CartPageTest {
 
     }
     @Test
-    @Description("Verify cart badge counts after navigating back to home page and adding another product")
+    @Description("Verify that the cart badge count updates correctly after navigating back to Home and adding another product")
     @Tag("valid scenario")
     public void CP_TC_07() {
         new LoginPage(driver)
@@ -141,7 +141,7 @@ public class CartPageTest {
                 .validateCartBadgeCount(2);
     }
     @Test
-    @Description("Verify cart badge updates correctly when removing products")
+    @Description("Verify that the cart badge updates correctly when a product is removed")
     @Tag("valid scenario")
     public void CP_TC_08() {
         new LoginPage(driver)
@@ -157,7 +157,7 @@ public class CartPageTest {
     }
 
     @Test
-    @Description("Cart badge persists after page reload")
+    @Description("Verify that the cart badge persists after page reload")
     @Tag("valid scenario")
     public void CP_TC_09() {
         new LoginPage(driver)
@@ -171,7 +171,7 @@ public class CartPageTest {
     }
 
     @Test
-    @Description("cart badge is hidden when cart is empty")
+    @Description("Verify that the cart badge is hidden when the cart is empty")
     @Tag("valid scenario")
     public void CP_TC_10() {
         new LoginPage(driver)

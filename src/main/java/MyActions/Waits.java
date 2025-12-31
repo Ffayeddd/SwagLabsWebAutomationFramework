@@ -12,9 +12,10 @@ import java.util.ArrayList;
 import java.util.NoSuchElementException;
 
 public class Waits {
-    private final WebDriver driver;
+    private WebDriver driver;
 
      public Waits(WebDriver driver)
+
     {
         this.driver=driver;
     }

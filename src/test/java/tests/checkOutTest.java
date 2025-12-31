@@ -159,7 +159,7 @@ public class checkOutTest {
     @Description("validating that facebook icon will direct me the rightlink   ")
     @Tag("validScenario")
     @Severity(SeverityLevel.MINOR)
-    public  void CO_TC_08 () {
+    public void CO_TC_08 () {
         new LoginPage(driver)
                 .validLogin()
                 .isLoggedIn(getProperty("expectedUrl"))

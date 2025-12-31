@@ -31,7 +31,7 @@ public class CartPage {
     public CartPage(WebDriver driver)
     {
         this.driver=driver;
-        this. elementActions=new ElementActions(driver);
+        this.elementActions=new ElementActions(driver);
         softAssert = new SoftAssert();
     }
 
@@ -59,17 +59,16 @@ public class CartPage {
     public CartPage clickCheckoutofCartWhenEmpty() {
 
         boolean isProductPresent = !driver.findElements(removeBackbagBtn).isEmpty();
-        Assert.assertFalse(isProductPresent, "Cart should be empty after removing all products");
+        Assert.assertFalse(isProductPresent);
         elementActions.myCLick(checkout_Button);
 
         String actualUrl = driver.getCurrentUrl();
-        String checkoutPageUrl = PropertyReader.getProperty("checkoutPageUrl");
+        String cartPageUrl = PropertyReader.getProperty("cartlink");
 
-        Assert.assertNotEquals(
+        Assert.assertEquals(
                 actualUrl,
-                checkoutPageUrl,
-                " Bug: User was redirected to checkout page even though cart is empty!"
-        );
+                cartPageUrl);
+
         return this;
     }
 
@@ -78,7 +77,7 @@ public class CartPage {
         elementActions.myCLick(checkout_Button);
         String actualUrl = driver.getCurrentUrl();
         String expectedUrlcart = PropertyReader.getProperty("checkoutPageUrl");
-        Assert.assertEquals(actualUrl, expectedUrlcart, " User should be redirected to Checkout page after clicking Checkout button");
+        Assert.assertEquals(actualUrl, expectedUrlcart);
         return new CheckOutPage(driver);
 
     }
@@ -88,7 +87,7 @@ public class CartPage {
     public HomePage clickContinueShopping(String expectedUrl) {
         elementActions.myCLick(continueShopping_Button);
         String actualUrl = driver.getCurrentUrl();
-        Assert.assertEquals(actualUrl, expectedUrl, "User should be redirected back to Home Page after clicking Continue Shopping");
+        Assert.assertEquals(actualUrl, expectedUrl);
         return new HomePage(driver);
     }
 
@@ -125,14 +124,14 @@ public class CartPage {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         WebElement badgeElement = wait.until(ExpectedConditions.visibilityOfElementLocated(cartBadge));
         int actualCount = Integer.parseInt(badgeElement.getText());
-        Assert.assertEquals(actualCount, expected, "Cart badge count mismatch");
+        Assert.assertEquals(actualCount, expected);
         return this;
     }
 
     @Step("Validate cart badge is not present")
     public CartPage validateCartBadgeNotPresent() {
         boolean isPresent = !driver.findElements(cartBadge).isEmpty();
-        Assert.assertFalse(isPresent, "Cart badge should not be present when cart is empty");
+        Assert.assertFalse(isPresent);
         return this;
     }
     @Step("Reload the cart page")

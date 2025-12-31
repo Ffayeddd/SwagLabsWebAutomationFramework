@@ -11,6 +11,7 @@ public class GuiDriver {
     private static final  String browser = PropertyReader.getProperty("browserType");
 
 
+
     public static WebDriver initDriver() {
         Browser browserType = Browser.valueOf(browser.toUpperCase());
         AbstractDriver abstractDriver = browserType.getFactory();

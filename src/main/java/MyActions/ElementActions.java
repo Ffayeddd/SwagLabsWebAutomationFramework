@@ -8,8 +8,8 @@ import org.openqa.selenium.interactions.Actions;
 import static java.awt.SystemColor.text;
 
 public class ElementActions {
-WebDriver driver ;
-Waits wait ;
+private WebDriver driver ;
+private Waits wait ;
 
     public ElementActions(WebDriver driver)
     {

@@ -54,15 +54,13 @@ public class LoginPage {
     //validations
     @Step("Validate that the user is logged-in")
     public HomePage isLoggedIn(String expectedUrl) {
-        softAssert.assertEquals(driver.getCurrentUrl(), expectedUrl,
-                "User should be redirected to inventory page after successful login");
+        softAssert.assertEquals(driver.getCurrentUrl(), expectedUrl);
         return new HomePage(driver);
     }
 
     @Step("Validate that the user is NOT logged in")
     public LoginPage isNotLoggedIn(String baseUrl) {
-        softAssert.assertEquals(driver.getCurrentUrl(), baseUrl,
-                "User should remain on login page");
+        softAssert.assertEquals(driver.getCurrentUrl(), baseUrl);
         return this;
     }
 

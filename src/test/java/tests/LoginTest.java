@@ -16,8 +16,8 @@ public class LoginTest {
     //variables
     private WebDriver driver;
     @Test
-    @Description("verify that user redirected to home page after valid credintials")
-    @Tag("validLogin")
+    @Description("verify that user redirected to home page after valid username and password")
+    @Tag("valid scenario")
     @Severity(SeverityLevel.CRITICAL)
 
 
@@ -29,8 +29,8 @@ public class LoginTest {
     }
 
     @Test
-    @Description("verify that user cannot redirect to home page with invalid username")
-    @Tag("invalidLogin")
+    @Description("verify that user can not redirect to home page with invalid username")
+    @Tag("invalid scenario")
     @Severity(SeverityLevel.CRITICAL)
 
     public void LG_TC_02() {
@@ -43,8 +43,8 @@ public class LoginTest {
     }
 
     @Test
-    @Description("verify that user cannot redirect to home page with invalid password")
-    @Tag("invalidLogin")
+    @Description("verify that user can not redirect to home page with invalid password")
+    @Tag("invalid scenario")
     @Severity(SeverityLevel.CRITICAL)
 
     public void LG_TC_03() {
@@ -57,7 +57,7 @@ public class LoginTest {
 
     @Test
     @Description("Verify that user cannot log in with spaces in username")
-    @Tag("invalidLogin")
+    @Tag("invalid scenario")
     @Severity(SeverityLevel.CRITICAL)
     public void LG_TC_04() {
         new LoginPage(driver)
@@ -69,7 +69,7 @@ public class LoginTest {
 
     @Test
     @Description("Verify that user cannot log in with spaces in password")
-    @Tag("invalidLogin")
+    @Tag("invalid scenario")
     @Severity(SeverityLevel.CRITICAL)
     public void LG_TC_05() {
         new LoginPage(driver)
@@ -81,7 +81,7 @@ public class LoginTest {
 
     @Test
     @Description("Verify that user cannot login with empty username")
-    @Tag("invalidLogin")
+    @Tag("invalid scenario")
     @Severity(SeverityLevel.CRITICAL)
     public void LG_TC_06() {
         new LoginPage(driver)
@@ -93,7 +93,7 @@ public class LoginTest {
 
     @Test
     @Description("Verify that user cannot login with empty password")
-    @Tag("invalidLogin")
+    @Tag("invalid scenario")
     @Severity(SeverityLevel.CRITICAL)
     public void LG_TC_07() {
         new LoginPage(driver)
@@ -106,7 +106,7 @@ public class LoginTest {
 
     @Test
     @Description("Verify that user cannot login with username with uppercase letters")
-    @Tag("invalidLogin")
+    @Tag("invalid scenario")
     @Severity(SeverityLevel.NORMAL)
     public void LG_TC_08() {
         new LoginPage(driver)
@@ -120,7 +120,7 @@ public class LoginTest {
 
     @Test
     @Description("Verify that locked out user cannot login")
-    @Tag("invalid login")
+    @Tag("invalid scenario")
     @Severity(SeverityLevel.CRITICAL)
     public void LG_TC_09() {
         new LoginPage(driver)
@@ -130,8 +130,8 @@ public class LoginTest {
     }
 
     @Test
-    @Description("Verify that problem_user can login successfully")
-    @Tag("validLogin")
+    @Description("Verify that problem_user can login")
+    @Tag("valid scenario")
     @Severity(SeverityLevel.CRITICAL)
     public void LG_TC_10() {
         new LoginPage(driver)
@@ -141,8 +141,8 @@ public class LoginTest {
     }
 
     @Test
-    @Description("Verify that performance_glitch_user can login successfully (may be slow)")
-    @Tag("validLogin")
+    @Description("Verify that performance_glitch_user can login")
+    @Tag("valid scenario")
     @Severity(SeverityLevel.CRITICAL)
     public void LG_TC_11() {
         new LoginPage(driver)
@@ -152,8 +152,8 @@ public class LoginTest {
     }
 
     @Test
-    @Description("Verify that error_user can login successfully")
-    @Tag("validLogin")
+    @Description("Verify that error_user can login")
+    @Tag("valid scenario")
     @Severity(SeverityLevel.CRITICAL)
     public void LG_TC_12() {
         new LoginPage(driver)
@@ -164,8 +164,8 @@ public class LoginTest {
 
 
     @Test
-    @Description("Verify that visual_user can login successfully")
-    @Tag("validLogin")
+    @Description("Verify that visual_user can login")
+    @Tag("valid scenario")
     @Severity(SeverityLevel.CRITICAL)
     public void LG_TC_13() {
         new LoginPage(driver)
@@ -176,7 +176,7 @@ public class LoginTest {
 
     @Test
     @Description("Verify that user cannot login with both empty username and password")
-    @Tag("invalidLogin")
+    @Tag("invalid scenario")
     @Severity(SeverityLevel.NORMAL)
     public void LG_TC_14() {
         new LoginPage(driver)
@@ -187,8 +187,8 @@ public class LoginTest {
     }
 
     @Test
-    @Description("Verify that the password field is masked(password isnot visible)")
-    @Tag("ui")
+    @Description("Verify that the password field is masked(password is not visible)")
+    @Tag("valid scenario")
     @Severity(SeverityLevel.NORMAL)
     public void LG_TC_15() {
         new LoginPage(driver)
@@ -198,7 +198,7 @@ public class LoginTest {
     //before and after configuration
     @BeforeMethod
     public void setup() {
-        driver = GuiDriver.initDriver();
+        driver = GuiDriver.initDriver();         // create driver once
         driver.get(getProperty("baseUrl"));
     }
 
