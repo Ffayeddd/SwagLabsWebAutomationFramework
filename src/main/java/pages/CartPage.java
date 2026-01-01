@@ -110,8 +110,7 @@ public class CartPage {
 
     @Step("Validate cart badge counts correctly")
     public CartPage validateCartBadgeCount(int expected) {
-        WebElement badgeElement = elementActions.findElement(cartBadge);
-        String text = badgeElement.getText();
+        String text = elementActions.findElement(cartBadge).getText();
         int actualCount = Integer.parseInt(text);
         Assert.assertEquals(actualCount, expected," Cart badge count mismatch");
         return this;

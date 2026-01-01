@@ -106,7 +106,7 @@ public class HomePage {
         return this;
     }
     @Step("Verify products are sorted A-Z")
-    public boolean isSortedAtoZ() {
+    public HomePage isSortedAtoZ() {
         List<String> names = driver.findElements(productNameLocator)
                 .stream()
                 .map(WebElement::getText)
@@ -114,8 +114,8 @@ public class HomePage {
 
         List<String> sortedNames = new ArrayList<>(names);
         Collections.sort(sortedNames);
-
-        return names.equals(sortedNames);
+        Assert.assertEquals(names, sortedNames, "Products are not sorted A-Z");
+        return this;
     }
 
     @Step("Filter products by second dropdown option")
@@ -125,16 +125,17 @@ public class HomePage {
     }
 
     @Step("Verify products are sorted Z-A")
-    public boolean isSortedZtoA() {
+    public HomePage isSortedZtoA() {
         List<String> names = driver.findElements(productNameLocator)
                 .stream()
                 .map(WebElement::getText)
                 .toList();
 
         List<String> sortedNames = new ArrayList<>(names);
-        Collections.sort(sortedNames);
+        Collections.sort(sortedNames, Collections.reverseOrder());
 
-        return names.equals(sortedNames);
+        Assert.assertEquals(names, sortedNames, "Products are not sorted Z-A");
+        return this;
     }
     @Step("Filter products by third dropdown option(price low-high)")
     public HomePage filterByThirdOption() {
@@ -143,7 +144,7 @@ public class HomePage {
     }
 
     @Step("Verify products are sorted from low to high price")
-    public boolean isSortedasc() {
+    public HomePage isSortedasc() {
         List<Double> prices = driver.findElements(productPriceLocator)
                 .stream()
                 .map(e -> Double.parseDouble(e.getText().replace("$", "")))
@@ -152,7 +153,8 @@ public class HomePage {
         List<Double> sortedPrices = new ArrayList<>(prices);
         Collections.sort(sortedPrices);
 
-        return prices.equals(sortedPrices);
+        Assert.assertEquals(prices, sortedPrices, "Products are not sorted from low to high price");
+        return this;
     }
 
     @Step("Filter products by fourth dropdown option(price high-low)")
@@ -162,7 +164,7 @@ public class HomePage {
     }
 
     @Step("Verify products are sorted from high to low price")
-    public boolean isSorteddesc() {
+    public HomePage isSorteddesc() {
         List<Double> prices = driver.findElements(productPriceLocator)
                 .stream()
                 .map(e -> Double.parseDouble(e.getText().replace("$", "")))
@@ -171,7 +173,8 @@ public class HomePage {
         List<Double> sortedPrices = new ArrayList<>(prices);
         Collections.sort(sortedPrices, Collections.reverseOrder());
 
-        return prices.equals(sortedPrices);
+        Assert.assertEquals(prices, sortedPrices, "Products are not sorted from high to low price");
+        return this;
     }
 
 
