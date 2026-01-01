@@ -155,7 +155,7 @@ public class CheckOutPage {
 
 
     // --Assertions----Assertions----Assertions----Assertions----Assertions----Assertions--
-                                    //Hard Assertions
+    //Hard Assertions
     @Step("validating on firstName error message")
     public void firstNameIsRequiredError()
     {
@@ -200,7 +200,7 @@ public class CheckOutPage {
     @Step ("Validate that we still in the same page ")
     public void samePageAssertion()
     {
-        Assert.assertEquals(driver.getCurrentUrl(),PropertyReader.getProperty("checkOutPageLink"));
+        Assert.assertEquals(driver.getCurrentUrl(),PropertyReader.getProperty("checkOutPageLink"),"you are not in the same page");
     }
 
     //footer validation
