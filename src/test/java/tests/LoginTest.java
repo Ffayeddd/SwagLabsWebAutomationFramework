@@ -22,7 +22,6 @@ public class LoginTest {
     @Tag("valid scenario")
     @Severity(SeverityLevel.CRITICAL)
 
-
     public void LG_TC_01() {
         new LoginPage(driver).
                 login(getProperty("validUsername"), getProperty("validPassword"))
@@ -194,7 +193,7 @@ public class LoginTest {
     @BeforeMethod
     public void setup() {
         guiDriver = new GuiDriver();
-        driver = guiDriver.get(); // constructor sets ThreadLocal
+        driver = guiDriver.get();
         driver.get(getProperty("baseUrl"));
     }
 

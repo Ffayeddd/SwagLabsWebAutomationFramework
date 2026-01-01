@@ -7,8 +7,8 @@ import org.openqa.selenium.support.ThreadGuard;
 public class GuiDriver {
 
 
-    private final static String browser = PropertyReader.getProperty("browserType");
-    private static ThreadLocal<WebDriver> driverThreadLocal = new ThreadLocal<>();
+    private final  String browser = PropertyReader.getProperty("browserType");
+    private  ThreadLocal<WebDriver> driverThreadLocal = new ThreadLocal<>();
 
 
 
@@ -21,12 +21,12 @@ public class GuiDriver {
 
 
 
-    public static WebDriver get() {
+    public  WebDriver get() {
 
         return driverThreadLocal.get();
     }
 
-    public static void quitDriver() {
+    public void quitDriver() {
 
         driverThreadLocal.get().quit();
     }

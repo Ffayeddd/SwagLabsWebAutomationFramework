@@ -137,11 +137,14 @@ public class HomePage {
         Assert.assertEquals(names, sortedNames, "Products are not sorted Z-A");
         return this;
     }
+
+
     @Step("Filter products by third dropdown option(price low-high)")
     public HomePage filterByThirdOption() {
         elementActions.Dropdown(filterDropdownLocator, 2);
         return this;
     }
+
 
     @Step("Verify products are sorted from low to high price")
     public HomePage isSortedasc() {

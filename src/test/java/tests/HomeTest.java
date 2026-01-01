@@ -427,6 +427,8 @@ public class HomeTest {
 
     @Test
     @Description("Verify products are sorted A-Z when selecting first dropdown option")
+    @Tag("valid scenario")
+    @Severity(SeverityLevel.NORMAL)
     public void HM_TC_30() {
         new LoginPage(driver)
                 .login(getProperty("validUsername"), getProperty("validPassword"))
@@ -437,6 +439,8 @@ public class HomeTest {
 
     @Test
     @Description("Verify products are sorted Z-A when selecting second dropdown option")
+    @Tag("valid scenario")
+    @Severity(SeverityLevel.NORMAL)
     public void HM_TC_31() {
         new LoginPage(driver)
                 .login(getProperty("validUsername"), getProperty("validPassword"))
@@ -448,6 +452,8 @@ public class HomeTest {
 
     @Test
     @Description("Verify products are sorted (low-high price) when selecting third dropdown option")
+    @Tag("valid scenario")
+    @Severity(SeverityLevel.NORMAL)
     public void HM_TC_32() {
         new LoginPage(driver)
                 .login(getProperty("validUsername"), getProperty("validPassword"))
@@ -457,7 +463,9 @@ public class HomeTest {
     }
 
     @Test
-    @Description("Verify products are sorted (highlow- price) when selecting fourth dropdown option")
+    @Description("Verify products are sorted (high-low price) when selecting fourth dropdown option")
+    @Tag("valid scenario")
+    @Severity(SeverityLevel.NORMAL)
     public void HM_TC_33() {
         new LoginPage(driver)
                 .login(getProperty("validUsername"), getProperty("validPassword"))

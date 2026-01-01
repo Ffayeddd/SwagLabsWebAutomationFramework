@@ -65,7 +65,9 @@ public class CartTest {
 
     @Test
     @Tag("valid scenario")
+    @Severity(SeverityLevel.CRITICAL)
     @Description("Verify that clicking Continue Shopping button redirects user to Home Page")
+
     public void CP_TC_03() {
         new LoginPage(driver)
                 .login(getProperty("validUsername"), getProperty("validPassword"))
@@ -79,6 +81,7 @@ public class CartTest {
 
     @Test
     @Tag("valid scenario")
+    @Severity(SeverityLevel.CRITICAL)
     @Description("Verify that the user can proceed to checkout from the cart page")
     public void CP_TC_04() {
         new LoginPage(driver)
@@ -111,6 +114,7 @@ public class CartTest {
     @Test
     @Description("Verify that the cart badge updates correctly when a product is added")
     @Tag("valid scenario")
+    @Severity(SeverityLevel.CRITICAL)
     public void CP_TC_06() {
         new LoginPage(driver)
                 .login(getProperty("validUsername"), getProperty("validPassword"))
@@ -123,6 +127,7 @@ public class CartTest {
     @Test
     @Description("Verify that the cart badge count updates after navigating back to Home and adding another product")
     @Tag("valid scenario")
+    @Severity(SeverityLevel.CRITICAL)
     public void CP_TC_07() {
         new LoginPage(driver)
                 .login(getProperty("validUsername"), getProperty("validPassword"))
@@ -138,6 +143,7 @@ public class CartTest {
     @Test
     @Description("Verify that the cart badge updates when a product is removed")
     @Tag("valid scenario")
+    @Severity(SeverityLevel.CRITICAL)
     public void CP_TC_08() {
         new LoginPage(driver)
                 .login(getProperty("validUsername"), getProperty("validPassword"))
@@ -154,6 +160,7 @@ public class CartTest {
     @Test
     @Description("Verify that the cart badge persists after page reload")
     @Tag("valid scenario")
+    @Severity(SeverityLevel.CRITICAL)
     public void CP_TC_09() {
         new LoginPage(driver)
                 .login(getProperty("validUsername"), getProperty("validPassword"))
@@ -168,6 +175,7 @@ public class CartTest {
     @Test
     @Description("Verify that the cart badge is hidden when the cart is empty")
     @Tag("valid scenario")
+    @Severity(SeverityLevel.CRITICAL)
     public void CP_TC_10() {
         new LoginPage(driver)
                 .login(getProperty("validUsername"), getProperty("validPassword"))
