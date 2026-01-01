@@ -14,23 +14,21 @@ import static Readers.PropertyReader.getProperty;
 
 public class CompleteTest {
     private WebDriver driver;
+    private GuiDriver guiDriver;
+
 
 
     //configuration
     @BeforeMethod
     public void setup() {
-
-        driver = GuiDriver.initDriver();         // create driver once
+        guiDriver = new GuiDriver();
+        driver = guiDriver.get(); // constructor sets ThreadLocal
         driver.get(getProperty("baseUrl"));
-
-
     }
 
     @AfterMethod
     public void tearDown() {
-        if (driver != null) {
-            GuiDriver.quitDriver();
-        }
+        guiDriver.quitDriver();
     }
 
 

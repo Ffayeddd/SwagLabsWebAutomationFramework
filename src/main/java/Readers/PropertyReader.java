@@ -9,7 +9,7 @@ import java.util.Properties;
 
 public class PropertyReader {
 
-    private static Properties props = new Properties();
+    public static Properties props = new Properties();
 
     static {
         try {

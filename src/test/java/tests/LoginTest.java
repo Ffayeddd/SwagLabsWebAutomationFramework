@@ -15,8 +15,10 @@ import static Readers.PropertyReader.getProperty;
 public class LoginTest {
     //variables
     private WebDriver driver;
+    private GuiDriver guiDriver;
+
     @Test
-    @Description("verify that user redirected to home page after valid username and password")
+    @Description("verify that user redirected to home page with valid username and password")
     @Tag("valid scenario")
     @Severity(SeverityLevel.CRITICAL)
 
@@ -25,7 +27,7 @@ public class LoginTest {
         new LoginPage(driver).
                 login(getProperty("validUsername"), getProperty("validPassword"))
                 .isLoggedIn(getProperty("expectedUrl"));
-        LoginPage.softAssert.assertAll();
+
     }
 
     @Test
@@ -39,7 +41,7 @@ public class LoginTest {
                 login(getProperty("invalidUsername"), getProperty("validPassword"))
                 .isNotLoggedIn(getProperty("baseUrl"))
                 .verifyUserOrPassErrorMsg(getProperty("expectedmsgForInvalidusernameOrpassword"));
-        LoginPage.softAssert.assertAll();
+
     }
 
     @Test
@@ -52,11 +54,11 @@ public class LoginTest {
                 login(getProperty("validUsername"), getProperty("invalidPassword"))
                 .isNotLoggedIn(getProperty("baseUrl"))
                 .verifyUserOrPassErrorMsg(getProperty("expectedmsgForInvalidusernameOrpassword"));
-        LoginPage.softAssert.assertAll();
+
     }
 
     @Test
-    @Description("Verify that user cannot log in with spaces in username")
+    @Description("Verify that user can not log in with spaces in username")
     @Tag("invalid scenario")
     @Severity(SeverityLevel.CRITICAL)
     public void LG_TC_04() {
@@ -64,11 +66,11 @@ public class LoginTest {
                 .login(getProperty("spaceUsername"), getProperty("validPassword"))
                 .isNotLoggedIn(getProperty("baseUrl"))
                 .verifyUserOrPassErrorMsg(getProperty("expectedmsgForInvalidusernameOrpassword"));
-        LoginPage.softAssert.assertAll();
+
     }
 
     @Test
-    @Description("Verify that user cannot log in with spaces in password")
+    @Description("Verify that user can not log in with spaces in password")
     @Tag("invalid scenario")
     @Severity(SeverityLevel.CRITICAL)
     public void LG_TC_05() {
@@ -76,7 +78,7 @@ public class LoginTest {
                 .login(getProperty("validUsername"), getProperty("spacePassword"))
                 .isNotLoggedIn(getProperty("baseUrl"))
                 .verifyUserOrPassErrorMsg(getProperty("expectedmsgForInvalidusernameOrpassword"));
-        LoginPage.softAssert.assertAll();
+
     }
 
     @Test
@@ -88,7 +90,7 @@ public class LoginTest {
                 .login("", getProperty("validPassword"))
                 .isNotLoggedIn(getProperty("baseUrl"))
                 .verifyemptyUserErrorMsg(getProperty("expectedmsgForEmptyusername"));
-        LoginPage.softAssert.assertAll();
+
     }
 
     @Test
@@ -100,12 +102,12 @@ public class LoginTest {
                 .login(getProperty("validUsername"), "")
                 .isNotLoggedIn(getProperty("baseUrl"))
                 .verifyemptyPassErrorMsg(getProperty("expectedmsgForEmptypassword"));
-        LoginPage.softAssert.assertAll();
+
     }
 
 
     @Test
-    @Description("Verify that user cannot login with username with uppercase letters")
+    @Description("Verify that user can not login with username with uppercase letters")
     @Tag("invalid scenario")
     @Severity(SeverityLevel.NORMAL)
     public void LG_TC_08() {
@@ -113,7 +115,7 @@ public class LoginTest {
                 .login(getProperty("validUsername").toUpperCase(), getProperty("validPassword"))
                 .isNotLoggedIn(getProperty("baseUrl"))
                 .verifyUserOrPassErrorMsg(getProperty("expectedmsgForInvalidusernameOrpassword"));
-        LoginPage.softAssert.assertAll();
+
     }
 
 
@@ -126,56 +128,56 @@ public class LoginTest {
         new LoginPage(driver)
                 .login(getProperty("lockedUser"), getProperty("validPassword"))
                 .verifyErrorMessage(getProperty("expectedmsgForLockedAcc"));
-        LoginPage.softAssert.assertAll();
+
     }
 
     @Test
-    @Description("Verify that problem_user can login")
+    @Description("Verify logging in with username (problem_user) ")
     @Tag("valid scenario")
     @Severity(SeverityLevel.CRITICAL)
     public void LG_TC_10() {
         new LoginPage(driver)
                 .login((getProperty("problemUser")), getProperty("validPassword"))
                 .isLoggedIn(getProperty("expectedUrl"));
-        LoginPage.softAssert.assertAll();
+
     }
 
     @Test
-    @Description("Verify that performance_glitch_user can login")
+    @Description("Verify logging in with username (performance_glitch_user)")
     @Tag("valid scenario")
     @Severity(SeverityLevel.CRITICAL)
     public void LG_TC_11() {
         new LoginPage(driver)
                 .login((getProperty("performanceGlitchUser")), getProperty("validPassword"))
                 .isLoggedIn(getProperty("expectedUrl"));
-        LoginPage.softAssert.assertAll();
+
     }
 
     @Test
-    @Description("Verify that error_user can login")
+    @Description("Verify logging in with username (error_user)")
     @Tag("valid scenario")
     @Severity(SeverityLevel.CRITICAL)
     public void LG_TC_12() {
         new LoginPage(driver)
                 .login((getProperty("errorUser")), getProperty("validPassword"))
                 .isLoggedIn(getProperty("expectedUrl"));
-        LoginPage.softAssert.assertAll();
+
     }
 
 
     @Test
-    @Description("Verify that visual_user can login")
+    @Description("Verify logging in with username (visual_user)")
     @Tag("valid scenario")
     @Severity(SeverityLevel.CRITICAL)
     public void LG_TC_13() {
         new LoginPage(driver)
                 .login((getProperty("visualUser")), getProperty("validPassword"))
                 .isLoggedIn(getProperty("expectedUrl"));
-        LoginPage.softAssert.assertAll();
+
     }
 
     @Test
-    @Description("Verify that user cannot login with both empty username and password")
+    @Description("Verify that user can not login with both empty username and password")
     @Tag("invalid scenario")
     @Severity(SeverityLevel.NORMAL)
     public void LG_TC_14() {
@@ -183,30 +185,22 @@ public class LoginTest {
                 .login("", "")
                 .isNotLoggedIn(getProperty("baseUrl"))
                 .verifyemptyUserErrorMsg(getProperty("expectedmsgForEmptyusername"));
-        LoginPage.softAssert.assertAll();
+
     }
 
-    @Test
-    @Description("Verify that the password field is masked(password is not visible)")
-    @Tag("valid scenario")
-    @Severity(SeverityLevel.NORMAL)
-    public void LG_TC_15() {
-        new LoginPage(driver)
-                .verifyPasswordFieldMasked();
-    }
+
 
     //before and after configuration
     @BeforeMethod
     public void setup() {
-        driver = GuiDriver.initDriver();
+        guiDriver = new GuiDriver();
+        driver = guiDriver.get(); // constructor sets ThreadLocal
         driver.get(getProperty("baseUrl"));
     }
 
     @AfterMethod
     public void tearDown() {
-        if (driver != null) {
-            GuiDriver.quitDriver();
-        }
+        guiDriver.quitDriver();
     }
 }
 

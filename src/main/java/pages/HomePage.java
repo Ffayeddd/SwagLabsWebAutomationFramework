@@ -84,9 +84,9 @@ public class HomePage {
     private final By aboutLink =By.cssSelector(PropertyReader.getProperty("aboutLinkLocator"));
     private final By logoutLink =By.cssSelector(PropertyReader.getProperty("logoutLinkLocator"));
     // Filteration Locators
-    private By filterDropdownLocator = By.className(PropertyReader.getProperty("dropDownLocator"));
-    private By productNameLocator = By.className(PropertyReader.getProperty("productNameLocator"));
-    private By productPriceLocator = By.className(PropertyReader.getProperty("productPriceLocator"));
+    private final By filterDropdownLocator = By.className(PropertyReader.getProperty("dropDownLocator"));
+    private final By productNameLocator = By.className(PropertyReader.getProperty("productNameLocator"));
+    private final By productPriceLocator = By.className(PropertyReader.getProperty("productPriceLocator"));
 
 
 
@@ -95,16 +95,14 @@ public class HomePage {
     public  HomePage(WebDriver driver)
     {
         this.driver=driver;
-        this. elementActions=new ElementActions(driver);
+        this.elementActions=new ElementActions(driver);
 
     }
     //Methods / Actions
-//**************************************************************************
+
     @Step("Filter products by first dropdown option")
     public HomePage filterByFirstOption() {
-        WebElement dropdown = driver.findElement(filterDropdownLocator);
-        Select select = new Select(dropdown);
-        select.selectByIndex(0); // Dropdown (A-Z)
+        elementActions.Dropdown(filterDropdownLocator, 0);
         return this;
     }
     @Step("Verify products are sorted A-Z")
@@ -112,18 +110,17 @@ public class HomePage {
         List<String> names = driver.findElements(productNameLocator)
                 .stream()
                 .map(WebElement::getText)
-                .collect(Collectors.toList());
+                .toList();
 
         List<String> sortedNames = new ArrayList<>(names);
         Collections.sort(sortedNames);
 
         return names.equals(sortedNames);
     }
+
     @Step("Filter products by second dropdown option")
     public HomePage filterBySecondOption() {
-        WebElement dropdown = driver.findElement(filterDropdownLocator);
-        Select select = new Select(dropdown);
-        select.selectByIndex(1);
+        elementActions.Dropdown(filterDropdownLocator, 1);
         return this;
     }
 
@@ -132,7 +129,7 @@ public class HomePage {
         List<String> names = driver.findElements(productNameLocator)
                 .stream()
                 .map(WebElement::getText)
-                .collect(Collectors.toList());
+                .toList();
 
         List<String> sortedNames = new ArrayList<>(names);
         Collections.sort(sortedNames);
@@ -141,9 +138,7 @@ public class HomePage {
     }
     @Step("Filter products by third dropdown option(price low-high)")
     public HomePage filterByThirdOption() {
-        WebElement dropdown = driver.findElement(filterDropdownLocator);
-        Select select = new Select(dropdown);
-        select.selectByIndex(2);
+        elementActions.Dropdown(filterDropdownLocator, 2);
         return this;
     }
 
@@ -152,7 +147,7 @@ public class HomePage {
         List<Double> prices = driver.findElements(productPriceLocator)
                 .stream()
                 .map(e -> Double.parseDouble(e.getText().replace("$", "")))
-                .collect(Collectors.toList());
+                .toList();
 
         List<Double> sortedPrices = new ArrayList<>(prices);
         Collections.sort(sortedPrices);
@@ -162,9 +157,7 @@ public class HomePage {
 
     @Step("Filter products by fourth dropdown option(price high-low)")
     public HomePage filterByFourthOption() {
-        WebElement dropdown = driver.findElement(filterDropdownLocator);
-        Select select = new Select(dropdown);
-        select.selectByIndex(3);
+        elementActions.Dropdown(filterDropdownLocator, 3);
         return this;
     }
 
@@ -173,7 +166,7 @@ public class HomePage {
         List<Double> prices = driver.findElements(productPriceLocator)
                 .stream()
                 .map(e -> Double.parseDouble(e.getText().replace("$", "")))
-                .collect(Collectors.toList());
+                .toList();
 
         List<Double> sortedPrices = new ArrayList<>(prices);
         Collections.sort(sortedPrices, Collections.reverseOrder());

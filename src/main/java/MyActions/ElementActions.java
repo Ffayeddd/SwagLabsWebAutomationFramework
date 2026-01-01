@@ -3,31 +3,32 @@ package MyActions;
 import Logs.Logutiles;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.Select;
 
 import static java.awt.SystemColor.text;
 
 public class ElementActions {
-private WebDriver driver ;
+private final WebDriver driver ;
 private Waits wait ;
 
     public ElementActions(WebDriver driver)
     {
-        this.driver=driver;
-        this.wait=new Waits(driver);
+        this.driver = driver;
+        this.wait = new Waits(driver);
     }
 
 
 
-    public void myCLick(By Locator)
+    public ElementActions myCLick(By Locator)
     {
-        Waits wait =new Waits (driver);
         wait.myWait().until(d->
         {
             try {
-                Actions actions = new Actions(driver);
-                actions.moveToElement(d.findElement(Locator)).perform();
-                d.findElement(Locator).click();
+                WebElement element = d.findElement(Locator);
+                new Actions(d).scrollToElement(element);
+                element.click();
                 Logutiles.info("Clicked on element: " + Locator.toString());
                 return true;
             }
@@ -36,19 +37,19 @@ private Waits wait ;
                 return false ;
             }
         });
+        return this ;
 
     }
 
-    public void MyType(By locator, String text)
+    public ElementActions MyType(By locator, String text)
     {
-        Waits waits =new Waits (driver);
-        waits.myWait().until(d->
+        wait.myWait().until(d->
         {
             try {
-                Actions actions = new Actions(driver);
-                actions.moveToElement(d.findElement(locator)).perform();
-                d.findElement(locator).clear();
-                d.findElement(locator).sendKeys(text);
+                WebElement element = d.findElement(locator);
+                new Actions(d).scrollToElement(element);
+                element.clear();
+                element.sendKeys(text);
                 Logutiles.info("Typed text '" + text + "' into element: " + locator.toString());
                 return true;
             }
@@ -57,23 +58,17 @@ private Waits wait ;
                 return false ;
             }
         });
-
+   return this ;
     }
 
     public String getText(By locator) {
-        Waits waits = new Waits(driver);
-        return waits.myWait().until(d -> {
+
+        return wait.myWait().until(d -> {
             try {
 
-                var element = d.findElement(locator);
-                Actions actions = new Actions(driver);
-                actions.moveToElement(element).perform();
-
-                // Scroll to element if needed (useful if not visible)
-                new Actions(driver).scrollToElement(element).perform();
-
-                // Get visible text
-                String msg = element.getText().trim();
+                WebElement element = d.findElement(locator);
+                new Actions(d).scrollToElement(element);
+                String msg = element.getText();
 
                 if (!msg.isEmpty()) {
                     Logutiles.info("Fetched text: '" + msg + "' from element: " + locator.toString());
@@ -88,6 +83,46 @@ private Waits wait ;
             }
         });
     }
+    public WebElement findElement(By locator) {
+
+        return wait.myWait().until(d -> {
+            try {
+
+                WebElement element = d.findElement(locator);
+                new Actions(d).scrollToElement(element);
+
+                    Logutiles.info("Found Element: " + locator.toString());
+                    return element;
+
+            } catch (Exception e) {
+                Logutiles.error("Failed to find element: " + locator.toString());
+                return null;
+            }
+        });
+    }
+    public ElementActions Dropdown(By locator, int index) {
+         wait.myWait().until(d ->
+                {
+                    try {
+                        WebElement element = d.findElement(locator);
+                        new Actions(d).scrollToElement(element);
+                        Select select = new Select(element);
+                        select.selectByIndex(index);
+                        Logutiles.info("Selected index" + index );
+                        return true;
+                    } catch (Exception e) {
+                        Logutiles.error("Failed to select from dropdown: " + index );
+                        return false;
+                    }
+                }
+        );
+        return this;
+    }
+
+
+
+
+
 
 
 

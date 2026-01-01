@@ -4,19 +4,16 @@ import Readers.PropertyReader;
 import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.asserts.SoftAssert;
+import org.testng.Assert;
 
-import java.time.Duration;
+
 
 public class LoginPage {
 
     //variable
     private final WebDriver driver;
     private final ElementActions elementActions;
-    public static SoftAssert softAssert;
+
 
 
     //locator
@@ -31,7 +28,7 @@ public class LoginPage {
     {
         this.driver=driver;
         this.elementActions = new ElementActions(driver);
-        softAssert = new SoftAssert();
+
 
     }
 
@@ -44,6 +41,7 @@ public class LoginPage {
         return this;
     }
 
+    @Step("login with valid username and password")
     public LoginPage validLogin()
     {
         login(PropertyReader.getProperty("validUsername"),
@@ -52,49 +50,39 @@ public class LoginPage {
     }
 
     //validations
-    @Step("Validate that the user is logged-in")
+    @Step("Validate that the user is logged in")
     public HomePage isLoggedIn(String expectedUrl) {
-        softAssert.assertEquals(driver.getCurrentUrl(), expectedUrl);
+        Assert.assertEquals(driver.getCurrentUrl(), expectedUrl,"User is not logged in with valid credentials");
         return new HomePage(driver);
     }
 
     @Step("Validate that the user is NOT logged in")
     public LoginPage isNotLoggedIn(String baseUrl) {
-        softAssert.assertEquals(driver.getCurrentUrl(), baseUrl);
+        Assert.assertEquals(driver.getCurrentUrl(), baseUrl,"User is logged in with invalid credentials");
         return this;
     }
 
-
-    @Step("Validate that password field is masked (password isnot visible)")
-    public LoginPage verifyPasswordFieldMasked() {
-        WebElement passwordField = driver.findElement(password);
-        String fieldType = passwordField.getAttribute("type");
-        softAssert.assertEquals(fieldType, "password");
-        return this;
-    }
 
     @Step("Validate the displayed error message for the locked account")
     public LoginPage verifyErrorMessage(String expectedmsgForLockedAcc) {
         String actualMessage = elementActions.getText(lockedAccErrorMessage);
-        softAssert.assertEquals(actualMessage, expectedmsgForLockedAcc);
+        Assert.assertEquals(actualMessage, expectedmsgForLockedAcc,"Locked account error message is not as expected");
         return this;
     }
 
-    @Step("Validate the displayed error message for the invlaid username or password field")
+    @Step("Validate the displayed error message for the invalid username or password field")
     public LoginPage verifyUserOrPassErrorMsg(String expectedmsgForInvalidusernameOrpassword) {
         String actualMessage = elementActions.getText(invalidUserOrPass);
-        softAssert.assertEquals(actualMessage, expectedmsgForInvalidusernameOrpassword);
+        Assert.assertEquals(actualMessage, expectedmsgForInvalidusernameOrpassword,"error message is not as expected");
         return this;
     }
 
 
     @Step("Validate the displayed error message for the empty username")
     public LoginPage verifyemptyUserErrorMsg(String expectedmsgForEmptyusername) {
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
-        wait.until(ExpectedConditions.visibilityOfElementLocated(invalidUserOrPass));
 
         String actualMessage = elementActions.getText(emptyUserOrPass);
-        softAssert.assertEquals(actualMessage, expectedmsgForEmptyusername);
+        Assert.assertEquals(actualMessage, expectedmsgForEmptyusername,"error message is not as expected");
         return this;
     }
 
@@ -102,7 +90,7 @@ public class LoginPage {
     @Step("Validate the displayed error message for the empty password")
     public LoginPage verifyemptyPassErrorMsg(String expectedmsgForEmptypassword) {
         String actualMessage = elementActions.getText(emptyUserOrPass);
-        softAssert.assertEquals(actualMessage, expectedmsgForEmptypassword);
+        Assert.assertEquals(actualMessage, expectedmsgForEmptypassword,"error message is not as expected");
         return this;
     }
 

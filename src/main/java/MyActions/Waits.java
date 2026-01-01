@@ -15,7 +15,6 @@ public class Waits {
     private WebDriver driver;
 
      public Waits(WebDriver driver)
-
     {
         this.driver=driver;
     }
