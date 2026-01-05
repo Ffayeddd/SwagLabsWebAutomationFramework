@@ -14,20 +14,19 @@ import pages.LoginPage;
 import static Readers.PropertyReader.getProperty;
 
 public class HomeTest {
-     private WebDriver driver;
-    private GuiDriver guiDriver;
+    WebDriver driver ;
 
     //configuration
+
     @BeforeMethod
     public void setup() {
-        guiDriver = new GuiDriver();
-        driver = guiDriver.get(); // constructor sets ThreadLocal
+        driver= GuiDriver.initDriver();
         driver.get(getProperty("baseUrl"));
     }
 
     @AfterMethod
     public void tearDown() {
-        guiDriver.quitDriver();
+        GuiDriver.quitDriver();
     }
 
 

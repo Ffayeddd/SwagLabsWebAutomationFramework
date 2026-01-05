@@ -6,28 +6,26 @@ import org.openqa.selenium.support.ThreadGuard;
 
 public class GuiDriver {
 
+    private static final String browser = PropertyReader.getProperty("browserType");
 
-    private final  String browser = PropertyReader.getProperty("browserType");
-    private  ThreadLocal<WebDriver> driverThreadLocal = new ThreadLocal<>();
+    private static ThreadLocal<WebDriver> driverThreadLocal = new ThreadLocal<>();
 
 
-
-    public GuiDriver(){
+    public static WebDriver getDriver() {
         Browser browserType = Browser.valueOf(browser.toUpperCase());
         AbstractDriver abstractDriver = browserType.getFactory();
-        WebDriver driver = ThreadGuard.protect(abstractDriver.createDriver());
-        driverThreadLocal.set(driver);
+        return abstractDriver.createDriver();
     }
 
-
-
-    public  WebDriver get() {
-
+    public static WebDriver initDriver() {
+        WebDriver driver = ThreadGuard.protect(getDriver());
+        driverThreadLocal.set(driver);
         return driverThreadLocal.get();
     }
-
-    public void quitDriver() {
-
+    public static WebDriver get() {
+        return driverThreadLocal.get();
+    }
+    public static void quitDriver() {
         driverThreadLocal.get().quit();
     }
 

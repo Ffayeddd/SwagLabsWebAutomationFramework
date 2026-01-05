@@ -1,6 +1,6 @@
 package Readers;
 
-import Logs.Logutiles;
+import Logs.LogUtils;
 import org.apache.commons.io.FileUtils;
 
 import java.io.File;
@@ -25,7 +25,7 @@ public class PropertyReader {
             // also merge system properties
             props.putAll(System.getProperties());
         } catch (Exception e) {
-            Logutiles.error("Error loading properties: " + e.getMessage());
+            LogUtils.error("Error loading properties: " + e.getMessage());
         }
     }
 
@@ -33,7 +33,7 @@ public class PropertyReader {
         try {
             return props.getProperty(key);
         } catch (Exception e) {
-            Logutiles.error("Error retrieving property '" + key + "': " + e.getMessage());
+            LogUtils.error("Error retrieving property '" + key + "': " + e.getMessage());
             return null;
         }
     }

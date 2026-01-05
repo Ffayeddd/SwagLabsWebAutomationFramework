@@ -3,7 +3,7 @@ package Logs;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-public class Logutiles {
+public class LogUtils {
 
     private static Logger logger ()
     {

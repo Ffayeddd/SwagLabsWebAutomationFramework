@@ -8,16 +8,16 @@ import org.openqa.selenium.edge.EdgeOptions;
 
 public class EgdeFactory extends AbstractDriver{
 
-    public EdgeOptions getoption()
+    private EdgeOptions getOptions()
     {
         EdgeOptions options = new EdgeOptions();
-        options.addArguments("--headless");
+        options.addArguments("--start-maximized");
         options.setPageLoadStrategy(PageLoadStrategy.EAGER);
 
         return options ;
     }
     @Override
     public WebDriver createDriver() {
-        return new EdgeDriver(getoption());
+        return new EdgeDriver(getOptions());
     }
 }

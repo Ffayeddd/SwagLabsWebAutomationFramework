@@ -14,8 +14,8 @@ import static Readers.PropertyReader.getProperty;
 
 public class LoginTest {
     //variables
-    private WebDriver driver;
-    private GuiDriver guiDriver;
+     WebDriver driver;
+
 
     @Test
     @Description("verify that user redirected to home page with valid username and password")
@@ -189,18 +189,20 @@ public class LoginTest {
 
 
 
-    //before and after configuration
+
+    //configuration
+
     @BeforeMethod
     public void setup() {
-        guiDriver = new GuiDriver();
-        driver = guiDriver.get();
+        driver= GuiDriver.initDriver();
         driver.get(getProperty("baseUrl"));
     }
 
     @AfterMethod
     public void tearDown() {
-        guiDriver.quitDriver();
+        GuiDriver.quitDriver();
     }
+
 }
 
 

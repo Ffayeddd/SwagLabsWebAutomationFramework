@@ -7,15 +7,11 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 public class ChromeFactory extends AbstractDriver{
 
-    public ChromeOptions getOptions() {
+    private ChromeOptions getOptions() {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--start-maximized");
-        options.addArguments("--incognito");
-
-        //disable notifications
-        options.addArguments("--disable-notifications");
         options.setPageLoadStrategy(PageLoadStrategy.EAGER);
-        return  options;
+        return options;
     }
     @Override
     public WebDriver createDriver() {

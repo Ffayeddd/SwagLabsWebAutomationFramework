@@ -32,7 +32,7 @@ public class CheckOutPage {
 
     //Methods-Actions
 
-    @Step("entering frist name ")
+    @Step("entering first name ")
     public CheckOutPage firstNameType()
     {
         elementActions.MyType(firstNameLabel,PropertyReader.getProperty("validfirstName"));

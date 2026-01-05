@@ -14,22 +14,9 @@ import pages.LoginPage;
 import static Readers.PropertyReader.getProperty;
 
 public class CartTest {
-    private WebDriver driver;
-    private GuiDriver guiDriver;
+     WebDriver driver;
 
 
-    //configuration
-    @BeforeMethod
-    public void setup() {
-        guiDriver = new GuiDriver();
-        driver = guiDriver.get(); // constructor sets ThreadLocal
-        driver.get(getProperty("baseUrl"));
-    }
-
-    @AfterMethod
-    public void tearDown() {
-        guiDriver.quitDriver();
-    }
 
     @Test
     @Description("Verify that the user can not proceed to checkout when the cart is empty")
@@ -188,6 +175,17 @@ public class CartTest {
 
 
 
+    //configuration
+    @BeforeMethod
+    public void setup() {
+        driver= GuiDriver.initDriver();
+        driver.get(getProperty("baseUrl"));
+    }
+
+    @AfterMethod
+    public void tearDown() {
+        GuiDriver.quitDriver();
+    }
 
 
 

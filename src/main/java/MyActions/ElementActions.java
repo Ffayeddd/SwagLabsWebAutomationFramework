@@ -1,13 +1,11 @@
 package MyActions;
 
-import Logs.Logutiles;
+import Logs.LogUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
-
-import static java.awt.SystemColor.text;
 
 public class ElementActions {
 private final WebDriver driver ;
@@ -29,7 +27,7 @@ private Waits wait ;
                 WebElement element = d.findElement(Locator);
                 new Actions(d).scrollToElement(element);
                 element.click();
-                Logutiles.info("Clicked on element: " + Locator.toString());
+                LogUtils.info("Clicked on element: " + Locator.toString());
                 return true;
             }
             catch (Exception e)
@@ -50,7 +48,7 @@ private Waits wait ;
                 new Actions(d).scrollToElement(element);
                 element.clear();
                 element.sendKeys(text);
-                Logutiles.info("Typed text '" + text + "' into element: " + locator.toString());
+                LogUtils.info("Typed text '" + text + "' into element: " + locator.toString());
                 return true;
             }
             catch (Exception e)
@@ -71,14 +69,14 @@ private Waits wait ;
                 String msg = element.getText();
 
                 if (!msg.isEmpty()) {
-                    Logutiles.info("Fetched text: '" + msg + "' from element: " + locator.toString());
+                    LogUtils.info("Fetched text: '" + msg + "' from element: " + locator.toString());
                     return msg;
                 } else {
-                    Logutiles.warn("Element found but text is empty: " + locator.toString());
+                    LogUtils.warn("Element found but text is empty: " + locator.toString());
                     return null;
                 }
             } catch (Exception e) {
-                Logutiles.error("Failed to get text from element: " + locator.toString() + " | " + e.getMessage());
+                LogUtils.error("Failed to get text from element: " + locator.toString() + " | " + e.getMessage());
                 return null;
             }
         });
@@ -91,11 +89,11 @@ private Waits wait ;
                 WebElement element = d.findElement(locator);
                 new Actions(d).scrollToElement(element);
 
-                    Logutiles.info("Found Element: " + locator.toString());
+                    LogUtils.info("Found Element: " + locator.toString());
                     return element;
 
             } catch (Exception e) {
-                Logutiles.error("Failed to find element: " + locator.toString());
+                LogUtils.error("Failed to find element: " + locator.toString());
                 return null;
             }
         });
@@ -108,10 +106,10 @@ private Waits wait ;
                         new Actions(d).scrollToElement(element);
                         Select select = new Select(element);
                         select.selectByIndex(index);
-                        Logutiles.info("Selected index" + index );
+                        LogUtils.info("Selected index" + index );
                         return true;
                     } catch (Exception e) {
-                        Logutiles.error("Failed to select from dropdown: " + index );
+                        LogUtils.error("Failed to select from dropdown: " + index );
                         return false;
                     }
                 }
